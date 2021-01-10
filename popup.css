@@ -5,7 +5,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
 }
-.container {
+.main-container {
 	display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 50px 100px 100px 100px 50px 30px;
@@ -21,7 +21,7 @@ body {
     margin-left: 3px;
     margin-right: 3px;
     border: 1px solid #4370ff;
-    border-radius: 1%;
+    border-radius: 3px 3px 3px 3px;
     background: #ffffff;
 }
 .header > div > input {
@@ -90,7 +90,6 @@ body {
     font-size: 10px;
     color: gray;
 }
-
 .footer > div > a {  
     text-decoration: none !important;
     color: gray;

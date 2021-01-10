@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="main-container">
 
       <div class="header">
         <div>
-          <input type="text" placeholder="검색어 입력">
-          <button>검색</button>
+          <input type="text" id="searchInput" placeholder="검색어 입력">
+          <button id="searchButton">검색</button>
         </div>
       </div>
 
@@ -50,13 +51,6 @@
       </div>
 
       <div class="item-link">
-        <a href="https://library.ajou.ac.kr" target="_blank">
-          <img src="images/icon/Ajou_library.png">
-          <p>중앙도서관</p>
-        </a>
-      </div>
-
-      <div class="item-link">
         <a href="https://www.ajou.ac.kr/kr/bachelor/schedule.do" target="_blank">
           <img src="images/icon/Ajou_calendar.png">
           <p>학사일정</p>
@@ -64,9 +58,16 @@
       </div>
 
       <div class="item-link">
+        <a href="https://library.ajou.ac.kr" target="_blank">
+          <img src="images/icon/Ajou_library.png">
+          <p>중앙도서관</p>
+        </a>
+      </div>
+
+      <div class="item-link">
         <a href="https://www.ajou.ac.kr/kr/admission/list01.do" target="_blank">
           <img src="images/icon/Ajou_department.png">
-          <p>학과홈페이지</p>
+          <p>학과 홈페이지</p>
         </a>
       </div>
 
@@ -78,7 +79,7 @@
       </div>
 
       <div class="item-schedule">
-        <span>학사(개발예정)</span>
+        <span>학사일정 리스트<br>(개발예정)</span>
       </div>
 
       <div class="footer">
