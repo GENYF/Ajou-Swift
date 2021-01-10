@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+.container {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 50px 100px 100px 100px 50px 30px;
+}
+.header {
+    grid-column: span 3;
+}
+.header > div {
+    width: 292px;
+    height: 30px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 1px solid #4370ff;
+    border-radius: 1%;
+    background: #ffffff;
+}
+.header > div > input {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 500;
+    width: 242px;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+.header > div > button {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 700;
+    color: #ffffff;
+    width: 48px;
+    height: 100%;
+    border: 0px;
+    background-color: #4370ff;
+    outline: none;
+    float: right;
+}
+.item-link {
+    text-align: center;
+    margin: 3px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px #D2D2D2;
+}
+.item-link > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+    color: black
+}
+.item-link > a > img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.item-link > a > p {
+    font-family: inherit;
+    margin: 5px;
+}
+.item-schedule{
+    grid-column: span 3;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid #4370ff;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px #D2D2D2;
+}
+.footer {
+    grid-column: span 3;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 100;
+    padding: 1px;
+    font-size: 10px;
+    color: gray;
+}
+
+.footer > div > a {  
+    text-decoration: none !important;
+    color: gray;
+}
