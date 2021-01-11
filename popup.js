@@ -8,12 +8,21 @@ document.addEventListener('DOMContentLoaded', function(){
         event.preventDefault();
     });
 
+    //날짜 표시
+    let today = new Date();   
+    let year = today.getFullYear();
+    let month = today.getMonth() + 1;
+    let date = today.getDate();
+
+    var dayText = year + "/" + month + "/" + date;
+    document.getElementById("day").innerHTML = dayText;
+
     //엔터로 검색
     var input = document.getElementById("searchInput");
-    input.addEventListener("keypress", function(event){
-        event.preventDefault();
+    input.addEventListener("keypress", function(event) {
         if (event.keyCode == 13) {
             var text = document.getElementById("searchInput").value;
+            console.log(text);
             search(text);
         }
     });
@@ -24,15 +33,6 @@ document.addEventListener('DOMContentLoaded', function(){
         var text = document.getElementById("searchInput").value;
         search(text);
     });
-
-    //날짜 표시
-    let today = new Date();   
-    let year = today.getFullYear();
-    let month = today.getMonth() + 1;
-    let date = today.getDate();
-
-    var dayText = year + "/" + month + "/" + date;
-    document.getElementById("day").innerHTML = dayText;
 });
 
 //검색 함수
