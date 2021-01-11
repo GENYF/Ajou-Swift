@@ -1,3 +1,8 @@
 # QuickAjou
 
-Google chrome extension
+아주대학교 재학생을 위한 사이트 모음, 깃허브에서 CODE를 .zip 파일로 다운 후 압축을 풀어주세요.
+
+사용방법
+1. chrome://extensions 으로 이동하여 확장 관리 페이지를 엽니다.
+2. 개발자 모드 옆에있는 토글 스위치를 클릭하여 개발자 모드를 활성화 합니다 .
+3. LOAD UNPACKED 버튼을 클릭하고 확장 디렉토리를 선택합니다.
