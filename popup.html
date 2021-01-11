@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="popup.css">
     <script src="popup.js"></script>
   </head>
-  <body>
+  <body id="main">
     <div class="main-container">
 
       <div class="header">
@@ -30,16 +30,16 @@
       </div>
 
       <div class="item-link">
-        <a href="https://eclass2.ajou.ac.kr" target="_blank">
-          <img src="images/icon/Ajou_blackboard.png">
-          <p>아주Bb</p>
+        <a href="https://mhaksa.ajou.ac.kr:30443" target="_blank">
+          <img src="images/icon/Ajou_univService.png">
+          <p>학사서비스</p>
         </a>
       </div>
 
       <div class="item-link">
-        <a href="https://mhaksa.ajou.ac.kr:30443" target="_blank">
-          <img src="images/icon/Ajou_univService.png">
-          <p>학사서비스</p>
+        <a href="https://eclass2.ajou.ac.kr" target="_blank">
+          <img src="images/icon/Ajou_blackboard.png">
+          <p>아주Bb</p>
         </a>
       </div>
 
@@ -79,7 +79,14 @@
       </div>
 
       <div class="item-schedule">
-        <span>학사일정 리스트<br>(개발예정)</span>
+        <div class="sub-container">
+            <div class="item-date">
+              <p id="day">0월 0일</p>
+            </div>
+            <div class="item-content">
+              <p id="schedule">학사일정이 없습니다.</p>
+            </div>
+        </div>
       </div>
 
       <div class="footer">
