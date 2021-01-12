@@ -24,7 +24,7 @@ var calendar = {
     IMG : "images/icon/Ajou_calendar.png"
 }
 var library = {
-    URL : "https://www.ajou.ac.kr/kr/admission/list01.do",
+    URL : "https://library.ajou.ac.kr",
     IMG : "images/icon/Ajou_library.png"
 }
 var department = {
