@@ -12,7 +12,7 @@ button {
     font-family: inherit;
     border: 1px solid #4370ff;
     border-radius: 3px 3px 3px 3px;
-    box-shadow: 3px 3px 3px #4370ff;
+    box-shadow: 2px 2px 2px #4370ff;
     background-color: white;
     transition-duration: 0.3s;
 }

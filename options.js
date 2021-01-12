@@ -1,4 +1,4 @@
-const itemLink = ["홈페이지", "포탈", "학사서비스", "아주Bb", "전자출석부", "학사일정", "중앙도서관", "학과 홈페이지", "사이트맵"];
+const itemLink = ["홈페이지", "포탈", "학사서비스", "아주Bb", "전자출석부", "학사일정", "중앙도서관", "학과 홈페이지", "사이트맵", "공지사항", "수강신청", "요람"];
 
 function ItemLinkOptions(page, itemLink, num) {
     for (let item of itemLink) {

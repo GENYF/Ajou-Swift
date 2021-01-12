@@ -35,6 +35,18 @@ var sitemap = {
     URL : "https://www.ajou.ac.kr/kr/guide/sitemap.do",
     IMG : "images/icon/Ajou_sitemap.png"
 }
+var notice = {
+    URL : "https://www.ajou.ac.kr/kr/ajou/notice.do",
+    IMG : "images/icon/Ajou_notice.png"
+}
+var applyClass = {
+    URL : "http://sugang.ajou.ac.kr/",
+    IMG : "images/icon/Ajou_applyClass.png"
+}
+var curriculum = {
+    URL : "https://www.ajou.ac.kr/kr/bachelor/handbook2019.do",
+    IMG : "images/icon/Ajou_curriculum.png"
+}
 
 document.addEventListener('DOMContentLoaded', function(){
     mouseSecurity();
@@ -151,6 +163,18 @@ function connectionLink(itemLink, Link){
         case "사이트맵":
             var URL = sitemap.URL; 
             var IMG = sitemap.IMG; 
+            break;
+        case "공지사항":
+            var URL = notice.URL; 
+            var IMG = notice.IMG; 
+            break;
+        case "수강신청":
+            var URL = applyClass.URL; 
+            var IMG = applyClass.IMG; 
+            break;
+        case "요람":
+            var URL = curriculum.URL; 
+            var IMG = curriculum.IMG; 
             break;
         default:
             break;

@@ -52,6 +52,11 @@ body {
     float: right;
     cursor: pointer;
 }
+.header > div > button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-left: 1px solid #4370ff;
+}
 .item-link {
     text-align: center;
     margin: 3px;
@@ -59,7 +64,7 @@ body {
     box-shadow: 3px 3px 3px #D2D2D2;
 }
 .item-link:hover {
-    border: 3px solid #4370ff;
+    border: 2px solid #4370ff;
 }
 .item-link > a {
     display: block;
