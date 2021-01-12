@@ -198,6 +198,6 @@ function printDate(){
         date = "0" + date;
     }
 
-    var dayText = year + "/" + month + "/" + date;
+    var dayText = year + "-" + month + "-" + date;
     document.getElementById("day").innerHTML = dayText;
 }
