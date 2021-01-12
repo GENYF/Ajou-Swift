@@ -48,6 +48,7 @@ var curriculum = {
     IMG : "images/icon/Ajou_curriculum.png"
 }
 
+//메인 함수, DOM 로드되면 실행
 document.addEventListener('DOMContentLoaded', function(){
     mouseSecurity();
     enterSearch();
