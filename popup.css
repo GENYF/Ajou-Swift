@@ -58,6 +58,9 @@ body {
     border-radius: 10%;
     box-shadow: 3px 3px 3px #D2D2D2;
 }
+.item-link:hover {
+    border: 3px solid #4370ff;
+}
 .item-link > a {
     display: block;
     width: 100%;

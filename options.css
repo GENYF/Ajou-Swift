@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+button {
+    width: 100px;
+    height: 30px;
+    margin: 3px;
+    font-family: inherit;
+    border: 1px solid #4370ff;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 3px 3px 3px #4370ff;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+button:hover{
+    color: white;
+    background-color: #4370ff;
+}
+button:focus{
+    border: 0px;
+    outline: 0px;
+    color: white;
+    background-color: #4370ff;
+}
