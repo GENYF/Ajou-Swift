@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function(){
     mouseSecurity();
     enterSearch();
     buttonSearch();
+    changeColor();
     changeLink();
     printDate();
 });
@@ -93,6 +94,19 @@ function buttonSearch(){
 function search(text){
     var link = "https://www.ajou.ac.kr/kr/search.do?qt=" + text;
     window.open(link);
+}
+
+//다크모드 설정 함수
+function changeColor(){
+    chrome.storage.sync.get('Color', function(data) {
+        console.log(data.Color);
+        var main = document.getElementById("main");
+
+        if(data.Color == "black"){
+            main.style.backgroundColor = "#1E1E1E";
+            main.style.filter = "invert(100%) contrast(80%) saturate(150%) brightness(120%)";
+        }
+    });
 }
 
 //바로가기 변경 함수

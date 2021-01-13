@@ -22,9 +22,9 @@ body {
     margin-right: 3px;
     border: 1px solid #4370ff;
     border-radius: 3px 3px 3px 3px;
-    background: #ffffff;
 }
 .header > div > input {
+    background-color: inherit;
     font-size: 12px;
     font-family: inherit;
     font-weight: 500;
@@ -40,6 +40,7 @@ body {
     float: left;
 }
 .header > div > button {
+    background-color: #4370ff;
     font-size: 14px;
     font-family: inherit;
     font-weight: 700;
@@ -47,20 +48,19 @@ body {
     width: 48px;
     height: 100%;
     border: 0px;
-    background-color: #4370ff;
     outline: none;
     float: right;
     cursor: pointer;
     transition-duration: 0.3s;
 }
 .header > div > button:hover {
+    background-color: inherit;
     color: #000000;
-    background-color: #ffffff;
     border-left: 1px solid #4370ff;
 }
 .item-link {
     text-align: center;
-    margin: 3px;
+    margin: 5px;
     border-radius: 10%;
     box-shadow: 3px 3px 3px #D2D2D2;
 }
@@ -72,7 +72,7 @@ body {
     width: 100%;
     height: 100%;
     text-decoration: none !important;
-    color: black
+    color: black;
 }
 .item-link > a > img {
     margin-top: 10px;
@@ -87,10 +87,10 @@ body {
     grid-column: span 3;
     text-align: center;
     font-family: inherit;
-    margin: 3px;
+    margin: 4px;
     border: 1px solid #4370ff;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 3px 3px 3px #D2D2D2;
+    
 }
 .sub-container {
     width: 100%;
@@ -104,8 +104,8 @@ body {
     border-right: 1px dashed #4370ff;
 }
 .item-date > p {
-    margin-top: 12px;
-    margin-bottom: 13px;
+    margin-top: 11px;
+    margin-bottom: 12px;
 }
 .item-content {
     grid-column: span 2;
@@ -113,8 +113,8 @@ body {
     vertical-align: middle;
 }
 .item-content > p {
-    margin-top: 12px;
-    margin-bottom: 13px;
+    margin-top: 11px;
+    margin-bottom: 12px;
 }
 .footer {
     grid-column: span 3;
