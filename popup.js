@@ -103,8 +103,8 @@ function changeColor(){
         var main = document.getElementById("main");
 
         if(data.Color == "black"){
-            main.style.backgroundColor = "#1E1E1E";
-            main.style.filter = "invert(100%) contrast(80%) saturate(150%) brightness(120%)";
+            main.style.backgroundColor = "#35363A";
+            main.style.filter = "invert(100%) contrast(80%) saturate(120%) brightness(120%)";
         }
     });
 }
