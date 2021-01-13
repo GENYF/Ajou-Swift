@@ -74,14 +74,9 @@ function ItemLinkOptions(page, itemLink, num) {
 
 window.onload = function(){
     ItemColorOptions(document.getElementById('button-color'), itemColor);
-    ItemLinkOptions(document.getElementById('button-link-1'), itemLink, 1);
-    ItemLinkOptions(document.getElementById('button-link-2'), itemLink, 2);
-    ItemLinkOptions(document.getElementById('button-link-3'), itemLink, 3);
-    ItemLinkOptions(document.getElementById('button-link-4'), itemLink, 4);
-    ItemLinkOptions(document.getElementById('button-link-5'), itemLink, 5);
-    ItemLinkOptions(document.getElementById('button-link-6'), itemLink, 6);
-    ItemLinkOptions(document.getElementById('button-link-7'), itemLink, 7);
-    ItemLinkOptions(document.getElementById('button-link-8'), itemLink, 8);
-    ItemLinkOptions(document.getElementById('button-link-9'), itemLink, 9);
+
+    for (let i = 1; i <= 9; i++){
+        ItemLinkOptions(document.getElementById(`button-link-${i}`), itemLink, i);
+    }
 }
 

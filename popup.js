@@ -110,38 +110,17 @@ function changeColor(){
 }
 
 //바로가기 변경 함수
-function changeLink(){
-    chrome.storage.sync.get('Link1', function(data) {
-        connectionLink(document.getElementById('item-link-1'), data.Link1);
-    });
-    chrome.storage.sync.get('Link2', function(data) {
-        connectionLink(document.getElementById('item-link-2'), data.Link2);
-    });
-    chrome.storage.sync.get('Link3', function(data) {
-        connectionLink(document.getElementById('item-link-3'), data.Link3)
-    });
-    chrome.storage.sync.get('Link4', function(data) {
-        connectionLink(document.getElementById('item-link-4'), data.Link4);
-    });
-    chrome.storage.sync.get('Link5', function(data) {
-        connectionLink(document.getElementById('item-link-5'), data.Link5);
-    });
-    chrome.storage.sync.get('Link6', function(data) {
-        connectionLink(document.getElementById('item-link-6'), data.Link6)
-    });
-    chrome.storage.sync.get('Link7', function(data) {
-        connectionLink(document.getElementById('item-link-7'), data.Link7);
-    });
-    chrome.storage.sync.get('Link8', function(data) {
-        connectionLink(document.getElementById('item-link-8'), data.Link8);
-    });
-    chrome.storage.sync.get('Link9', function(data) {
-        connectionLink(document.getElementById('item-link-9'), data.Link9)
-    });
+function changeLink() {
+    for (let i = 1; i <= 9; i++) {
+      chrome.storage.sync.get(`Link${i}`, function(data) {
+        connectLink(document.getElementById(`item-link-${i}`), data[`Link${i}`]);
+      });
+    }
 }
 
 //바로가기 객체 연결 함수, 바로가기 수에 따라 변동
-function connectionLink(itemLink, Link){
+function connectLink(itemLink, Link){
+    console.log(itemLink);
     switch(Link){
         case "홈페이지": 
             var URL = homepage.URL; 
