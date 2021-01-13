@@ -1,49 +1,49 @@
 //바로가기 객체, 바로가기 수에 따라 변동
-var homepage = {
+let homepage = {
     URL : "https://www.ajou.ac.kr/kr/index.do",
     IMG : "images/icon/Ajou_homepage.png"
 }
-var portal = {
+let portal = {
     URL : "https://mportal.ajou.ac.kr/main.do",
     IMG : "images/icon/Ajou_portal.png"
 }
-var univService = {
+let univService = {
     URL : "https://mhaksa.ajou.ac.kr:30443",
     IMG : "images/icon/Ajou_univService.png"
 }
-var blackborad = {
+let blackborad = {
     URL : "https://eclass2.ajou.ac.kr",
     IMG : "images/icon/Ajou_blackboard.png"
 }
-var checkBook = {
+let checkBook = {
     URL : "https://attend.ajou.ac.kr/eams/student/main",
     IMG : "images/icon/Ajou_checkBook.png"
 }
-var calendar = {
+let calendar = {
     URL : "https://www.ajou.ac.kr/kr/bachelor/schedule.do",
     IMG : "images/icon/Ajou_calendar.png"
 }
-var library = {
+let library = {
     URL : "https://library.ajou.ac.kr",
     IMG : "images/icon/Ajou_library.png"
 }
-var department = {
+let department = {
     URL : "https://www.ajou.ac.kr/kr/admission/list01.do",
     IMG : "images/icon/Ajou_department.png"
 }
-var sitemap = {
+let sitemap = {
     URL : "https://www.ajou.ac.kr/kr/guide/sitemap.do",
     IMG : "images/icon/Ajou_sitemap.png"
 }
-var notice = {
+let notice = {
     URL : "https://www.ajou.ac.kr/kr/ajou/notice.do",
     IMG : "images/icon/Ajou_notice.png"
 }
-var applyClass = {
+let applyClass = {
     URL : "http://sugang.ajou.ac.kr/",
     IMG : "images/icon/Ajou_applyClass.png"
 }
-var curriculum = {
+let curriculum = {
     URL : "https://www.ajou.ac.kr/kr/bachelor/handbook2019.do",
     IMG : "images/icon/Ajou_curriculum.png"
 }
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 //마우스 우클릭 및 드래그 방지 함수
 function mouseSecurity(){
-    var main = document.getElementById("main");
+    let main = document.getElementById("main");
     main.addEventListener("contextmenu", function(event){
         event.preventDefault();
     });
@@ -71,10 +71,10 @@ function mouseSecurity(){
 
 //엔터 검색 함수
 function enterSearch(){
-    var input = document.getElementById("searchInput");
+    let input = document.getElementById("searchInput");
     input.addEventListener("keypress", function(event) {
         if (event.keyCode == 13) {
-            var text = document.getElementById("searchInput").value;
+            let text = document.getElementById("searchInput").value;
             console.log(text);
             search(text);
         }
@@ -83,16 +83,16 @@ function enterSearch(){
 
 //버튼 검색 함수
 function buttonSearch(){
-    var button = document.getElementById("searchButton");   
+    let button = document.getElementById("searchButton");   
     button.addEventListener("click", function(){
-        var text = document.getElementById("searchInput").value;
+        let text = document.getElementById("searchInput").value;
         search(text);
     });
 }
 
 //검색 함수
 function search(text){
-    var link = "https://www.ajou.ac.kr/kr/search.do?qt=" + text;
+    let link = "https://www.ajou.ac.kr/kr/search.do?qt=" + text;
     window.open(link);
 }
 
@@ -100,7 +100,7 @@ function search(text){
 function changeColor(){
     chrome.storage.sync.get('Color', function(data) {
         console.log(data.Color);
-        var main = document.getElementById("main");
+        let main = document.getElementById("main");
 
         if(data.Color == "black"){
             main.style.backgroundColor = "#35363A";
@@ -120,7 +120,6 @@ function changeLink() {
 
 //바로가기 객체 연결 함수, 바로가기 수에 따라 변동
 function connectLink(itemLink, Link){
-    console.log(itemLink);
     switch(Link){
         case "홈페이지": 
             var URL = homepage.URL; 
@@ -192,6 +191,6 @@ function printDate(){
         date = "0" + date;
     }
 
-    var dayText = year + "-" + month + "-" + date;
+    let dayText = year + "-" + month + "-" + date;
     document.getElementById("day").innerHTML = dayText;
 }
