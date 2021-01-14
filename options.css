@@ -10,12 +10,12 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 100px 1fr 1fr 1fr;
 }
-.button-color { 
-	margin: 5px;
+.button-color {
 	grid-column: span 3;
+	margin: 5px;
 }
 .button-link {
- 	margin: 5px;
+	margin: 5px;
 }
 button {
 	background-color: white;

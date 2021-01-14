@@ -4,7 +4,7 @@ body {
 	background-color: white;
 	font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
-    word-break: keep-all;
+	word-break: keep-all;
 }
 .main-container {
 	display: grid;
