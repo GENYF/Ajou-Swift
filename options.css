@@ -5,6 +5,18 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: 300;
 }
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 1fr 1fr 1fr;
+}
+.button-color { 
+	margin: 5px;
+	grid-column: span 3;
+}
+.button-link {
+ 	margin: 5px;
+}
 button {
 	background-color: white;
 	border: 1px solid #4370ff;
