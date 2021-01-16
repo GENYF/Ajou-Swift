@@ -15,8 +15,6 @@
 * 버그 발생시 gnyf0915@gmail.com 으로 메일 주시면 신속히 수정하겠습니다. 
 * 정식 출시는 1월 말로 예정되어 있습니다.
 
----
-
 # 릴리즈 노트
 * 2021.01.09: 알파 버전 개발
 * 2021.01.10: 검색 기능 추가
@@ -29,7 +27,6 @@
 
 
 # 라이센스
-
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
 본 서비스는 [Chrome Developers Extension](https://developer.chrome.com/docs/extensions/) 문서를 참고하여 개발되었습니다.
