@@ -3,8 +3,6 @@
 아주대학교 재학생을 위한 사이트 모음, 깃허브에서 CODE를 .zip 파일로 다운 후 압축을 풀어주세요.
 <https://github.com/GENYF/QuickAjou/archive/main.zip> 링크를 통해서도 다운이 가능합니다.
 
----
-
 1. <chrome://extensions> 으로 이동하여 확장 프로그램 관리 페이지를 열어주세요.
 2. 개발자 모드 옆에있는 토글 스위치를 클릭하여 개발자 모드를 활성화 해주세요 .
 3. LOAD UNPACKED 버튼을 클릭하고 확장 디렉토리를 선택해주세요.
@@ -19,7 +17,7 @@
 
 ---
 
-**릴리즈 노트**
+# 릴리즈 노트
 * 2021.01.09: 알파 버전 개발
 * 2021.01.10: 검색 기능 추가
 * 2021.01.11: 옵션 기능 추가
@@ -29,7 +27,8 @@
 * 2021.01.15: 웨일 브라우저 대응 개발
 * 2021.01.16: 일정 기능 추가 및 코드 최적화
 
----
+
+# 라이센스
 
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
