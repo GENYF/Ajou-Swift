@@ -1,4 +1,4 @@
-# QuickAjou
+# 아스 - Ajou Swift
 
 아주대학교 재학생을 위한 사이트 모음, 깃허브에서 CODE를 .zip 파일로 다운 후 압축을 풀어주세요.
 <https://github.com/GENYF/QuickAjou/archive/main.zip> 링크를 통해서도 다운이 가능합니다.
