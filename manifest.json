@@ -1,27 +1,28 @@
 {
-    "name": "Quick Ajou",
-    "version": "0.1",
-    "description": "아주대학교 재학생을 위한 교내 사이트 모음",
-    "permissions": ["activeTab", "storage", "http://fonts.googleapis.com/earlyaccess/notosanskr.css"],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
-    "browser_action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-          "16": "images/logo/Ajou_logo16.png",
-          "32": "images/logo/Ajou_logo32.png",
-          "48": "images/logo/Ajou_logo48.png",
-          "128": "images/logo/Ajou_logo128.png"
-      }
-    },
-    "options_page": "options.html",
-    "icons": {
-        "16": "images/logo/Ajou_logo16.png",
-        "32": "images/logo/Ajou_logo32.png",
-        "48": "images/logo/Ajou_logo48.png",
-        "128": "images/logo/Ajou_logo128.png"
-    },
-    "manifest_version": 2
-  }
+  "name": "Quick Ajou",
+  "version": "0.1",
+  "description": "아주대학교 재학생을 위한 교내 사이트 모음",
+  "permissions": ["activeTab", "storage", "http://fonts.googleapis.com/earlyaccess/notosanskr.css"],
+  "web_accessible_resources": ["page.json", "schedule.json"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/logo/Ajou_logo16.png",
+      "32": "images/logo/Ajou_logo32.png",
+      "48": "images/logo/Ajou_logo48.png",
+      "128": "images/logo/Ajou_logo128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/logo/Ajou_logo16.png",
+    "32": "images/logo/Ajou_logo32.png",
+    "48": "images/logo/Ajou_logo48.png",
+    "128": "images/logo/Ajou_logo128.png"
+  },
+  "manifest_version": 2
+}
