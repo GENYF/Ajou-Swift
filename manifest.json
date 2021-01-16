@@ -2,7 +2,7 @@
   "name": "아스 - Ajou Swift",
   "version": "1.0",
   "description": "아주대학교 재학생을 위한 교내 페이지 모음 확장 프로그램",
-  "permissions": ["storage", "http://fonts.googleapis.com/earlyaccess/notosanskr.css"],
+  "permissions": ["storage", "https://fonts.googleapis.com/earlyaccess/notosanskr.css"],
   "web_accessible_resources": ["page.json", "schedule.json"],
   "background": {
     "scripts": ["background.js"],
