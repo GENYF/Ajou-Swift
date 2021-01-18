@@ -4,7 +4,7 @@
 
 [크롬 브라우저 다운로드]()
 
-[웨일 브라우저 다운로드](bit.ly/AjouSwift-Whale)
+[웨일 브라우저 다운로드](https://bit.ly/AjouSwift-Whale)
 
 '아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬 확장프로그램입니다.
 
