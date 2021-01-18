@@ -1,19 +1,36 @@
 # 아스 - Ajou Swift
 
-아주대학교 재학생을 위한 사이트 모음, 깃허브에서 CODE를 .zip 파일로 다운 후 압축을 풀어주세요.
-<https://github.com/GENYF/QuickAjou/archive/main.zip> 링크를 통해서도 다운이 가능합니다.
+크롬 다운로드:
+웨일 다운로드: https://store.whale.naver.com/detail/hoohejcabeamacipncafopgpjcbmfcph
 
-1. <chrome://extensions> 으로 이동하여 확장 프로그램 관리 페이지를 열어주세요.
-2. 개발자 모드 옆에있는 토글 스위치를 클릭하여 개발자 모드를 활성화 해주세요 .
-3. LOAD UNPACKED 버튼을 클릭하고 확장 디렉토리를 선택해주세요.
-4. 확장 프로그램이 설치되었습니다!
+'아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬 확장프로그램입니다.
 
-![iYdLKFsJ1KSVGLhbLRvS](https://user-images.githubusercontent.com/28863210/104153634-30412c00-5426-11eb-9e99-725555495f3f.png)
+손쉽게 크롬에 추가하여 검색 기능, 페이지 바로가기 기능, 중요 학사일정 안내 기능을 이용하실 수 있습니다.
 
-* 아이콘을 우클릭하여 옵션탭에 접속하면 버튼 선택을 통해 바로가기 링크를 변경할 수 있습니다.
-* 현재 학사일정 알림 기능은 지원하지 않고 있습니다.
-* 버그 발생시 gnyf0915@gmail.com 으로 메일 주시면 신속히 수정하겠습니다. 
-* 정식 출시는 1월 말로 예정되어 있습니다.
+총 18개의 웹 페이지를 제공하며, 옵션을 통해 9개의 페이지를 선택할 수 있습니다.
+
+제공 페이지는 다음과 같습니다.
+
+- 홈페이지
+- 포탈
+- 학사서비스
+- 아주Bb
+- 전자출석부
+- 학사일정
+- 중앙도서관
+- 학과 홈페이지
+- 사이트맵
+- 공지사항
+- 수강신청
+- 요람
+- 대학기구
+- 교내 전화번호
+- 대학일자리센터
+- LINC+ 사업단
+- 수학 웹과제
+- 과학 웹과제
+
+많은 이용바랍니다. 감사합니다!
 
 # 릴리즈 노트
 * 2021.01.09: 알파 버전 개발
@@ -24,10 +41,13 @@
 * 2021.01.14: 옵션 기능 개선
 * 2021.01.15: 웨일 브라우저 대응 개발
 * 2021.01.16: 일정 기능 추가 및 코드 최적화
-* 2021.01.17: 크롬 및 웨일 확장 스토어 등록
+* 2021.01.17: 크롬 및 웨일 확장프로그램 스토어 등록 요청
+* 2021.01.18: 웨일 확장프로그램 스토어 등록
 
 
 # 라이센스
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
 본 서비스는 [Chrome Developers Extension](https://developer.chrome.com/docs/extensions/) 문서를 참고하여 개발되었습니다.
+
+본 서비스에 사용된 모든 아주대학교 로고의 저작권은 아주대학교에 있습니다.
