@@ -2,7 +2,7 @@
 
 [![Contact: gnyf0915@gmail.com](https://img.shields.io/badge/Contact-gnyf0915@gmail.com-important)](mailto:gnyf0915@gmail.com)
 
-[크롬 브라우저 다운로드]()
+[크롬 브라우저 다운로드](https://bit.ly/AjouSwift-Chrome)
 
 [웨일 브라우저 다운로드](https://bit.ly/AjouSwift-Whale)
 
@@ -57,3 +57,10 @@
 본 서비스는 [Chrome Developers Extension](https://developer.chrome.com/docs/extensions/) 문서를 참고하여 개발되었습니다.
 
 본 서비스에 사용된 모든 아주대학교 로고의 저작권은 아주대학교에 있습니다.
+
+해당 레포를 활용하여 자교의 확장프로그램을 개발할 경우 확장프로그램 소개란에 원작자를 표시하시길 바랍니다.
+
+```
+Origin Repo: https://github.com/GENYF/Ajou-Swift
+Origin: 아주대학교 크롬 & 웨일 확장프로그램(https://bit.ly/AjouSwift-Whale, https://bit.ly/AjouSwift-Chrome)
+```
