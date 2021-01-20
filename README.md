@@ -6,7 +6,7 @@
 
 [웨일 브라우저 아스 설치](https://bit.ly/AjouSwift-Whale)
 
-'아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬 확장프로그램입니다.
+'아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬·웨일 확장프로그램입니다.
 
 손쉽게 크롬에 추가하여 검색 기능, 페이지 바로가기 기능, 중요 학사일정 안내 기능을 이용하실 수 있습니다.
 
@@ -49,6 +49,8 @@
 * 2021.01.16: 일정 기능 추가 및 코드 최적화
 * 2021.01.17: 크롬 및 웨일 확장프로그램 스토어 등록 요청
 * 2021.01.18: 웨일 확장프로그램 스토어 등록
+* 2021.01.19: 크롬 확장프로그램 스토어 등록
+* 2021.01.20: 공식 출시
 
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
@@ -61,5 +63,5 @@
 
 ```
 Origin Repo: https://github.com/GENYF/Ajou-Swift
-Origin: 아주대학교 크롬 & 웨일 확장프로그램(https://bit.ly/AjouSwift-Whale, https://bit.ly/AjouSwift-Chrome)
+Origin: 아주대학교 크롬·웨일 확장프로그램(https://bit.ly/AjouSwift-Whale, https://bit.ly/AjouSwift-Chrome)
 ```
