@@ -2,9 +2,9 @@
 
 [![Contact: gnyf0915@gmail.com](https://img.shields.io/badge/Contact-gnyf0915@gmail.com-important)](mailto:gnyf0915@gmail.com)
 
-[크롬 브라우저 다운로드](https://bit.ly/AjouSwift-Chrome)
+[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)
 
-[웨일 브라우저 다운로드](https://bit.ly/AjouSwift-Whale)
+[웨일 브라우저 아스 설치](https://bit.ly/AjouSwift-Whale)
 
 '아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬 확장프로그램입니다.
 
