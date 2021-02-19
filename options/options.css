@@ -42,7 +42,6 @@ button:focus {
 	color: white;
 	outline: 0px;
 }
-/*셀렉트 버튼과 일반 버튼 간격 조정하기*/
 select{
 	background-color: white;
 	border: 1px solid #4370ff;
@@ -51,5 +50,9 @@ select{
 	font-family: inherit;
 	height: 30px;
 	margin: 3px;
-	width: 206px;
+	width: 200px;
+}
+select:focus {
+	background-color: white;
+	border: 1px solid #4370ff;
 }
