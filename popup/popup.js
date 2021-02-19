@@ -65,7 +65,7 @@ function changeLink() {
         let itemLink = document.getElementById(`item-link-${i}`);
         let Link = data[`Link${i}`];
 
-        fetch(chrome.extension.getURL('page.json'))
+        fetch(chrome.extension.getURL('../data/page.json'))
         .then((resp) => resp.json())
         .then(function (jsonData) {
             let URL = jsonData[`${Link}`].URL; 
@@ -94,7 +94,7 @@ function printSchedule(){
     let dayText = year + "-" + month + "-" + date;
     document.getElementById('day').innerHTML = dayText;
 
-    fetch(chrome.extension.getURL('schedule.json'))
+    fetch(chrome.extension.getURL('../data/schedule.json'))
     .then((resp) => resp.json())
     .then(function (jsonData) {
         let scheduleText = jsonData[`${dayText}`];
