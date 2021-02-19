@@ -11,7 +11,11 @@ body {
 	grid-template-rows: 100px 1fr 1fr 1fr;
 }
 .button-color {
-	grid-column: span 3;
+	grid-column: span 1;
+	margin: 5px;
+}
+.button-department {
+	grid-column: span 2;
 	margin: 5px;
 }
 .button-link {
