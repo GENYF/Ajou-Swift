@@ -66,7 +66,7 @@ function changeLink() {
         let Link = data[`Link${i}`];
 
         fetch(chrome.extension.getURL('../data/page.json'))
-        .then((resp) => resp.json())
+        .then((response) => response.json())
         .then(function (jsonData) {
             let URL = jsonData[`${Link}`].URL; 
             let IMG = jsonData[`${Link}`].IMG;
@@ -95,7 +95,7 @@ function printSchedule(){
     document.getElementById('day').innerHTML = dayText;
 
     fetch(chrome.extension.getURL('../data/schedule.json'))
-    .then((resp) => resp.json())
+    .then((response) => response.json())
     .then(function (jsonData) {
         let scheduleText = jsonData[`${dayText}`];
         if(scheduleText == undefined){
