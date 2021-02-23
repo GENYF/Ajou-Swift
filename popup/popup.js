@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', function(){
     enterSearch();
     buttonSearch();
     changeColor();
-    changeLink();
-    printSchedule();
+    setLink();
+    setSchedule();
 });
 
 
@@ -47,8 +47,8 @@ function buttonSearch(){
 
 //검색 함수
 function search(query){
-    let link = "https://www.ajou.ac.kr/kr/search.do?qt=" + query;
-    window.open(link);
+    let queryLink = "https://www.ajou.ac.kr/kr/search.do?qt=" + query;
+    window.open(queryLink);
 }
 
 //다크모드 설정 함수
@@ -67,7 +67,7 @@ function changeColor(){
 }
 
 //바로가기 생성 및 변경 함수
-function changeLink() {
+function setLink() {
     //9개의 바로가기 생성
     for (let i = 1; i <= 9; i++) {
         //크롬 스토리지에 동기화된 사용자 바로가기 데이터 가져오기
@@ -83,10 +83,7 @@ function changeLink() {
                 let IMG = jsonData[`${Link}`].IMG;
 
                 //페이지 클릭 이벤트 추가 
-                itemLink.addEventListener('click',function(){
-                    window.open(URL);
-                });
-                itemLink.style.cursor = "pointer";
+                clickOpenNewTeb(itemLink, URL);
 
                 //이미지 생성
                 let imgTag = document.createElement('img');
@@ -103,14 +100,11 @@ function changeLink() {
 }
 
 //날짜 및 일정 출력 함수
-function printSchedule(){
+function setSchedule(){
     //페이지 클릭 이벤트 추가
     let itemSchedule = document.getElementById('item-schedule');
 
-    itemSchedule.addEventListener('click',function(){
-        window.open("https://www.ajou.ac.kr/kr/bachelor/schedule.do");
-    });
-    itemSchedule.style.cursor = "pointer";
+    clickOpenNewTeb(itemSchedule, "https://www.ajou.ac.kr/kr/bachelor/schedule.do");
 
     //json에서 Ajax로 학사일정 불러오기
     let schedule = document.getElementById('schedule');
@@ -144,4 +138,13 @@ function printSchedule(){
 
     let dayText = year + "-" + month + "-" + date;
     document.getElementById('day').textContent = dayText;
+}
+
+//클릭 이벤트 및 바로가기 연결 함수
+function clickOpenNewTeb(element, URL){
+    element.addEventListener('click', function(){
+        window.open(URL);
+    });
+
+    element.style.cursor = "pointer";
 }
