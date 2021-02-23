@@ -1,5 +1,5 @@
 //메인 함수, DOM 로드되면 실행
-document.addEventListener('DOMContentLoaded', function(){
+window.addEventListener('DOMContentLoaded', function(){
     mouseSecurity();
     enterSearch();
     buttonSearch();
@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
     changeLink();
     printSchedule();
 });
+
 
 //마우스 우클릭 및 드래그 방지 함수
 function mouseSecurity(){

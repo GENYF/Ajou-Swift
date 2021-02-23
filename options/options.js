@@ -10,14 +10,14 @@ fetch(chrome.extension.getURL('../data/page.json'))
 });
 */
 
-window.onload = function(){
+window.addEventListener('load', function(){
     itemColorOptions(document.getElementById('button-color'), itemColor);
     itemDepartmentOptions(document.getElementById('form-department'), document.getElementById('select-department'), itemDepartment);
 
     for (let i = 1; i <= 9; i++){
         itemLinkOptions(document.getElementById(`button-link-${i}`), itemLink, i);
     }
-}
+});
 
 function itemColorOptions(page, itemColor) {
     for (let item of itemColor) {
