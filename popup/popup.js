@@ -72,10 +72,10 @@ function changeLink() {
     for (let i = 1; i <= 9; i++) {
         //크롬 스토리지에 동기화된 사용자 바로가기 데이터 가져오기
         chrome.storage.sync.get(`Link${i}`, function(data) {
+            //json에서 Ajax로 페이지 이미지와 링크 불러오기
             let itemLink = document.getElementById(`item-link-${i}`);
             let Link = data[`Link${i}`];
 
-            //json에서 Ajax로 페이지 이미지와 링크 불러오기
             fetch(chrome.extension.getURL("../data/page.json"))
             .then((response) => response.json())
             .then(function (jsonData) {
@@ -113,10 +113,13 @@ function printSchedule(){
     itemSchedule.style.cursor = "pointer";
 
     //json에서 Ajax로 학사일정 불러오기
+    let schedule = document.getElementById('schedule');
+
     fetch(chrome.extension.getURL("../data/schedule.json"))
     .then((response) => response.json())
     .then(function (jsonData) {
         let scheduleText = jsonData[`${dayText}`];
+
         if(scheduleText == undefined){
             schedule.textContent = "학사일정이 없습니다.";
         }
@@ -141,6 +144,4 @@ function printSchedule(){
 
     let dayText = year + "-" + month + "-" + date;
     document.getElementById('day').textContent = dayText;
-
-    let schedule = document.getElementById('schedule');
 }
