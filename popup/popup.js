@@ -58,19 +58,36 @@ function changeColor(){
     });
 }
 
-//바로가기 생성 및 변경 함수
+//바로가기 생성 및 변경 함수, innerHTML 보안상 수정 필요
 function changeLink() {
     for (let i = 1; i <= 9; i++) {
       chrome.storage.sync.get(`Link${i}`, function(data) {
         let itemLink = document.getElementById(`item-link-${i}`);
         let Link = data[`Link${i}`];
 
-        fetch(chrome.extension.getURL('../data/page.json'))
+        fetch(chrome.extension.getURL("../data/page.json"))
         .then((response) => response.json())
         .then(function (jsonData) {
             let URL = jsonData[`${Link}`].URL; 
             let IMG = jsonData[`${Link}`].IMG;
+
             itemLink.innerHTML = '<a href=' + URL + ' target="_blank"><img src='+ IMG + '><p>' + Link + '</p></a>'; 
+            
+            //a 태그 삭제 및 addEventListener 구현 필요
+            /*
+            let aTag = document.createElement('a');
+            aTag.setAttribute('herf', URL);
+            aTag.setAttribute('target', '_blank');
+            itemLink.appendChild(aTag);
+
+            let imgTag = document.createElement('img');
+            imgTag.setAttribute('src', IMG);
+            aTag.appendChild(imgTag);
+
+            let pTag = document.createElement('p');
+            pTag.textContent = Link;
+            aTag.appendChild(pTag);
+            */
         });
       });
     }
@@ -92,17 +109,17 @@ function printSchedule(){
     }
 
     let dayText = year + "-" + month + "-" + date;
-    document.getElementById('day').innerHTML = dayText;
+    document.getElementById('day').textContent = dayText;
 
-    fetch(chrome.extension.getURL('../data/schedule.json'))
+    fetch(chrome.extension.getURL("../data/schedule.json"))
     .then((response) => response.json())
     .then(function (jsonData) {
         let scheduleText = jsonData[`${dayText}`];
         if(scheduleText == undefined){
-            document.getElementById('schedule').innerHTML = "학사일정이 없습니다.";
+            document.getElementById('schedule').textContent = "학사일정이 없습니다.";
         }
         else{
-            document.getElementById('schedule').innerHTML = scheduleText;
+            document.getElementById('schedule').textContent = scheduleText;
         }
     });
 }
