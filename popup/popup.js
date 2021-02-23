@@ -13,11 +13,11 @@ window.addEventListener('DOMContentLoaded', function(){
 function mouseSecurity(){
     let main = document.getElementById('main');
 
-    main.addEventListener('contextmenu', function(event){
+    main.addEventListener('dragstart', function(event){
         event.preventDefault();
     });
 
-    main.addEventListener('dragstart', function(event){
+    main.addEventListener('contextmenu', function(event){
         event.preventDefault();
     });
 }
@@ -74,26 +74,26 @@ function setLink() {
         chrome.storage.sync.get(`Link${i}`, function(data) {
             //json에서 Ajax로 페이지 이미지와 링크 불러오기
             let itemLink = document.getElementById(`item-link-${i}`);
-            let Link = data[`Link${i}`];
+            let linkN = data[`Link${i}`];
 
             fetch(chrome.extension.getURL("../data/page.json"))
             .then((response) => response.json())
             .then(function (jsonData) {
-                let URL = jsonData[`${Link}`].URL; 
-                let IMG = jsonData[`${Link}`].IMG;
+                let URL = jsonData[`${linkN}`].URL; 
+                let IMG = jsonData[`${linkN}`].IMG;
 
                 //페이지 클릭 이벤트 추가 
                 clickOpenNewTeb(itemLink, URL);
 
-                //이미지 생성
-                let imgTag = document.createElement('img');
-                imgTag.setAttribute('src', IMG);
-                itemLink.appendChild(imgTag);
+                //이미지 및 텍스트 생성
+                let linkImage = document.createElement('img');
+                let linkText = document.createElement('p');
 
-                //텍스트 생성
-                let pTag = document.createElement('p');
-                pTag.textContent = Link;
-                itemLink.appendChild(pTag);
+                linkImage.setAttribute('src', IMG);
+                linkText.textContent = linkN;
+
+                itemLink.appendChild(linkImage);
+                itemLink.appendChild(linkText);
             });
         });
     }

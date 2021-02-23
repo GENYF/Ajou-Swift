@@ -20,7 +20,7 @@ window.addEventListener('load', function(){
 });
 
 //테마 선택 옵션 생성
-function itemColorOptions(page, itemColor) {
+function itemColorOptions(element, itemColor) {
     for (let item of itemColor) {
         let button = document.createElement('button');
         button.textContent = item;
@@ -32,18 +32,18 @@ function itemColorOptions(page, itemColor) {
             }); 
         });
 
-        page.appendChild(button);
+        element.appendChild(button);
     }
 }
 
 //학과 선택 옵션 생성
-function itemDepartmentOptions(formPage, selectPage, itemDepartment){
+function itemDepartmentOptions(formElement, selectElement, itemDepartment){
     for (let item of itemDepartment) {
         var select = document.createElement('option');
         select.setAttribute('value', item);
         select.textContent = item;
 
-        selectPage.appendChild(select);
+        selectElement.appendChild(select);
     }
 
     let button = document.createElement('button');
@@ -52,18 +52,18 @@ function itemDepartmentOptions(formPage, selectPage, itemDepartment){
 
     //버튼 클릭시 학과 설정 동기화
     button.addEventListener('click', function() {
-        let data = selectPage.options[selectPage.selectedIndex].value;
+        let data = selectElement.options[selectElement.selectedIndex].value;
         
         chrome.storage.sync.set({Department: data}, function() { 
             console.log(data); 
         }); 
     });
 
-    formPage.appendChild(button);
+    formElement.appendChild(button);
 }
 
 //바로가기 선택 옵션 생성
-function itemLinkOptions(page, itemLink, num) {
+function itemLinkOptions(element, itemLink, num) {
     for (let item of itemLink) {
         let button = document.createElement('button');
         button.textContent = item
@@ -75,7 +75,7 @@ function itemLinkOptions(page, itemLink, num) {
             }); 
         });
 
-        page.appendChild(button);
+        element.appendChild(button);
     }
 }
 
