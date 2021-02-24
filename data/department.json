@@ -1,17 +1,125 @@
 {
+    "나의 학과 선택" : {
+        "URL" : "chrome-extension://jbegidfhcnmmjbbdlfbhhkdfeeckoodb/options/options.html"
+    },
+    "기계공학과" : {
+        "URL" : "http://me.ajou.ac.kr/me/index.jsp"
+    },
+    "산업공학과" : {
+        "URL" : "http://ie.ajou.ac.kr/ie/index.jsp"
+    }, 
+    "화학공학과" : {
+        "URL" : "http://che.ajou.ac.kr/che/index.jsp"
+    }, 
+    "신소재공학과" : {
+        "URL" : "http://mse.ajou.ac.kr/mse/"
+    },
+    "응용화학생명공학과" : {
+        "URL" : "http://chembio.ajou.ac.kr/chembio/index.jsp"
+    }, 
+    "환경안전공학과" : {
+        "URL" : "http://env.ajou.ac.kr/env/index.jsp"
+    }, 
+    "건설시스템공학과" : {
+        "URL" : "http://ce.ajou.ac.kr/ce/"
+    }, 
+    "교통시스템공학과" : {
+        "URL" : "http://tse.ajou.ac.kr/tse/index.jsp"
+    }, 
+    "건축학과" : {
+        "URL" : "https://eng.ajou.ac.kr/arch/"
+    },
+    "융합시스템공학과" : {
+        "URL" : "https://ise.ajou.ac.kr/ise/index.jsp"
+    },
     "전자공학과" : {
-        "URL" : "https://www.ajou.ac.kr/kr/index.do"
+        "URL" : "http://ece.ajou.ac.kr/ece/index.jsp"
     },
     "소프트웨어학과" : {
-        "URL" : "https://www.ajou.ac.kr/kr/index.do"
+        "URL" : "http://software.ajou.ac.kr/"
     },
     "사이버보안학과" : {
-        "URL" : "https://www.ajou.ac.kr/kr/index.do"
-    },
-    "국방디지털융합학과" : {
-        "URL" : "https://www.ajou.ac.kr/kr/index.do"
+        "URL" : "http://security.ajou.ac.kr/security/index.jsp"
     },
     "미디어학과" : {
-        "URL" : "https://www.ajou.ac.kr/kr/index.do"
+        "URL" : "http://media.ajou.ac.kr/media/index.jsp"
+    },
+    "국방디지털융합학과" : {
+        "URL" : "http://mdc.ajou.ac.kr/mdc/index.jsp"
+    }, 
+    "인공지능융합학과" : {
+        "URL" : "http://aai.ajou.ac.kr/aai/index.jsp"
+    },
+    "수학과" : {
+        "URL" : "http://math.ajou.ac.kr/math/index.jsp"
+    },
+    "물리학과" : {
+        "URL" : "http://physics.ajou.ac.kr/physics/index.jsp"
+    },
+    "화학과" : {
+        "URL" : "https://www2.ajou.ac.kr/chem/index.jsp"
+    },
+    "생명과학과" : {
+        "URL" : "http://biology.ajou.ac.kr/biolog/index.jsp"
+    },
+    "경영학과" : {
+        "URL" : "http://abiz.ajou.ac.kr/abiz/index.jsp"
+    },
+    "e-비즈니스학과" : {
+        "URL" : "http://ebiz.ajou.ac.kr/ebiz/index.jsp"
+    },
+    "금융공학과" : {
+        "URL" : "http://fe.ajou.ac.kr/fe/index.jsp"
+    },
+    "글로벌경영학과" : {
+        "URL" : "http://gb.ajou.ac.kr/gb/index.jsp"
+    },
+    "국어국문학과" : {
+        "URL" : "http://kor.ajou.ac.kr/kor/index.jsp"
+    },
+    "영어영문학과" : {
+        "URL" : "http://ell.ajou.ac.kr/english/index.jsp"
+    },
+    "불어불문학과" : {
+        "URL" : "http://france.ajou.ac.kr/france/index.jsp"
+    },
+    "사학과" : {
+        "URL" : "http://history.ajou.ac.kr/history/index.jsp"
+    },
+    "문화콘텐츠학과" : {
+        "URL" : "http://culture.ajou.ac.kr/culture/index.jsp"
+    },
+    "경제학과" : {
+        "URL" : "http://econ.ajou.ac.kr/econ/index.jsp"
+    },
+    "행정학과" : {
+        "URL" : "http://pba.ajou.ac.kr/pba/index.jsp"
+    },
+    "심리학과" : {
+        "URL" : "http://apsy.ajou.ac.kr/apsy/index.jsp"
+    },
+    "사회학과" : {
+        "URL" : "http://soci.ajou.ac.kr/soci/index.jsp"
+    },
+    "정치외교학과" : {
+        "URL" : "http://pol.ajou.ac.kr/pol/index.jsp"
+    },
+    "스포츠레저학과" : {
+        "URL" : "http://slez.ajou.ac.kr/slez/index.jsp"
+    },
+    "의학과" : {
+        "URL" : "http://medicine.ajou.ac.kr/"
+    },
+    "간호학과" : {
+        "URL" : "http://nursing.ajou.ac.kr/"
+    },
+    "약학과" : {
+        "URL" : "http://pharm.ajou.ac.kr/pharm/index.jsp"
+    },
+    "다산학부대학" : {
+        "URL" : "http://uc.ajou.ac.kr/uc/index.jsp"
+    },
+    "국제학부" : {
+        "URL" : "http://isa.ajou.ac.kr/isa/index.jsp"
     }
 }

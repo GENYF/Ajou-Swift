@@ -1,4 +1,4 @@
-//메인 함수, DOM 로드되면 실행
+/*메인 함수, DOM 로드되면 실행*/
 window.addEventListener('DOMContentLoaded', function(){
     /*테마 변경 기능*/
 
@@ -99,37 +99,57 @@ window.addEventListener('DOMContentLoaded', function(){
     });
 });
 
-//바로가기 생성 및 변경 함수
-function setLink(itemLinkN, num) {
+/*바로가기 생성 및 변경 데이터 파싱 함수*/
+function setLink(itemLinkElement, num) {
     //크롬 스토리지에 동기화된 사용자 바로가기 데이터 가져오기
     chrome.storage.sync.get(`Link${num}`, function(data) {
         //json에서 Ajax로 페이지 이미지와 링크 불러오기
-        let linkN = data[`Link${num}`];
+        let linkName = data[`Link${num}`];
 
         fetch(chrome.extension.getURL("../data/page.json"))
         .then((response) => response.json())
         .then(function (jsonData) {
-            let URL = jsonData[`${linkN}`].URL; 
-            let IMG = jsonData[`${linkN}`].IMG;
+            let IMG = jsonData[`${linkName}`].IMG;
 
-            //페이지 클릭 이벤트 추가 
-            clickOpenNewTeb(itemLinkN, URL);
+            if (linkName == "나의 학과") {
+                chrome.storage.sync.get(`Department`, function(data) {
+                    let departmentName = data.Department;
 
-            //이미지 및 텍스트 생성
-            let linkImage = document.createElement('img');
-            let linkText = document.createElement('p');
-
-            linkImage.setAttribute('src', IMG);
-            linkText.textContent = linkN;
-
-            itemLinkN.appendChild(linkImage);
-            itemLinkN.appendChild(linkText);
+                    fetch(chrome.extension.getURL("../data/department.json"))
+                    .then((response) => response.json())
+                    .then(function (jsonData) {
+                        let URL = jsonData[`${departmentName}`].URL; 
+                        
+                        setLinkElement(itemLinkElement, linkName, URL, IMG);
+                    });
+                });
+            }
+            else{
+                let URL = jsonData[`${linkName}`].URL; 
+                
+                setLinkElement(itemLinkElement, linkName, URL, IMG)
+            }
         });
     });
 }
 
+/*바로가기 생성 및 변경 DOM 제어 함수*/
+function setLinkElement(itemLinkElement, linkName, URL, IMG){
+    //페이지 클릭 이벤트 추가 
+    clickOpenNewTeb(itemLinkElement, URL);
 
-//클릭 이벤트 및 바로가기 연결 함수
+    //이미지 및 텍스트 생성
+    let linkImage = document.createElement('img');
+    let linkText = document.createElement('p');
+
+    linkImage.setAttribute('src', IMG);
+    linkText.textContent = linkName;
+
+    itemLinkElement.appendChild(linkImage);
+    itemLinkElement.appendChild(linkText);
+}
+
+/*클릭 이벤트 및 바로가기 연결 함수*/
 function clickOpenNewTeb(element, URL){
     element.addEventListener('click', function(){
         window.open(URL);
@@ -138,7 +158,7 @@ function clickOpenNewTeb(element, URL){
     element.style.cursor = "pointer";
 }
 
-//검색 함수
+/*검색 함수*/
 function search(query){
     let queryLink = "https://www.ajou.ac.kr/kr/search.do?qt=" + query;
     window.open(queryLink);

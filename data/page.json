@@ -32,7 +32,7 @@
         "IMG" : "../images/icon/Ajou_department.png"
     },
     "나의 학과" : {
-        "URL" : "https://www.ajou.ac.kr/kr/admission/list01.do",
+        "URL" : "chrome-extension://jbegidfhcnmmjbbdlfbhhkdfeeckoodb/options/options.html",
         "IMG" : "../images/icon/Ajou_myDepartment.png"
     },
     "사이트맵" : {
@@ -86,5 +86,9 @@
     "에브리타임" : {
         "URL" : "https://ajou.everytime.kr/",
         "IMG" : "../images/icon/Ajou_everytime.png"
+    },
+    "신입생 카페" : {
+        "URL" : "https://cafe.naver.com/godwoojin",
+        "IMG" : "../images/icon/Ajou_cafe.png"
     }
 }
