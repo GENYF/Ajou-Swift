@@ -31,6 +31,10 @@
         "URL" : "https://www.ajou.ac.kr/kr/admission/list01.do",
         "IMG" : "../images/icon/Ajou_department.png"
     },
+    "나의 학과" : {
+        "URL" : "https://www.ajou.ac.kr/kr/admission/list01.do",
+        "IMG" : "../images/icon/Ajou_myDepartment.png"
+    },
     "사이트맵" : {
         "URL" : "https://www.ajou.ac.kr/kr/guide/sitemap.do",
         "IMG" : "../images/icon/Ajou_sitemap.png"
@@ -46,6 +50,14 @@
     "요람" : {
         "URL" : "https://www.ajou.ac.kr/kr/bachelor/handbook2019.do",
         "IMG" : "../images/icon/Ajou_curriculum.png"
+    },
+    "기숙사" : {
+        "URL" : "https://dorm.ajou.ac.kr/dorm/index.jsp",
+        "IMG" : "../images/icon/Ajou_dormitory.png"
+    },
+    "교내식당" : {
+        "URL" : "https://www.ajou.ac.kr/kr/life/food.do",
+        "IMG" : "../images/icon/Ajou_meal.png"
     },
     "대학기구" : {
         "URL" : "https://www.ajou.ac.kr/kr/intro/organ.do",
@@ -70,5 +82,9 @@
     "과학 웹과제" : {
         "URL" : "https://mapleta.ajou.ac.kr/mapleta/login/login.do",
         "IMG" : "../images/icon/Ajou_scienceAssignment.png"
+    },
+    "에브리타임" : {
+        "URL" : "https://ajou.everytime.kr/",
+        "IMG" : "../images/icon/Ajou_everytime.png"
     }
 }
