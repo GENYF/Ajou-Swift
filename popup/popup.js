@@ -124,7 +124,7 @@ function setLink(itemLinkElement, num) {
                     });
                 });
             }
-            else{
+            else {
                 let URL = jsonData[`${linkName}`].URL; 
                 
                 setLinkElement(itemLinkElement, linkName, URL, IMG)
