@@ -1,94 +1,94 @@
 {
     "홈페이지" : {
-        "URL" : "https://www.ajou.ac.kr/kr/index.do",
-        "IMG" : "../images/icon/Ajou_homepage.png"
+        "IMG" : "../images/icon/Ajou_homepage.png",
+        "URL" : "https://www.ajou.ac.kr/kr/index.do"
     },
     "포탈" : {
-        "URL" : "https://mportal.ajou.ac.kr/main.do",
-        "IMG" : "../images/icon/Ajou_portal.png"
+        "IMG" : "../images/icon/Ajou_portal.png",
+        "URL" : "https://mportal.ajou.ac.kr/main.do"
     },
     "학사서비스" : {
-        "URL" : "https://mhaksa.ajou.ac.kr:30443",
-        "IMG" : "../images/icon/Ajou_univService.png"
+        "IMG" : "../images/icon/Ajou_univService.png",
+        "URL" : "https://mhaksa.ajou.ac.kr:30443"
     },
     "아주Bb" : {
-        "URL" : "https://eclass2.ajou.ac.kr",
-        "IMG" : "../images/icon/Ajou_blackboard.png"
+        "IMG" : "../images/icon/Ajou_blackboard.png",
+        "URL" : "https://eclass2.ajou.ac.kr"
     },
     "전자출석부" : {
-        "URL" : "https://attend.ajou.ac.kr/eams/student/main",
-        "IMG" : "../images/icon/Ajou_checkBook.png"
+        "IMG" : "../images/icon/Ajou_checkBook.png",
+        "URL" : "https://attend.ajou.ac.kr/eams/student/main"
     },
     "학사일정" : {
-        "URL" : "https://www.ajou.ac.kr/kr/bachelor/schedule.do",
-        "IMG" : "../images/icon/Ajou_calendar.png"
+        "IMG" : "../images/icon/Ajou_calendar.png",
+        "URL" : "https://www.ajou.ac.kr/kr/bachelor/schedule.do"
     },
     "중앙도서관" : {
-        "URL" : "https://library.ajou.ac.kr",
-        "IMG" : "../images/icon/Ajou_library.png"
+        "IMG" : "../images/icon/Ajou_library.png",
+        "URL" : "https://library.ajou.ac.kr"
     },
     "학과 홈페이지" : {
-        "URL" : "https://www.ajou.ac.kr/kr/admission/list01.do",
-        "IMG" : "../images/icon/Ajou_department.png"
+        "IMG" : "../images/icon/Ajou_department.png",
+        "URL" : "https://www.ajou.ac.kr/kr/admission/list01.do"
     },
     "나의 학과" : {
-        "URL" : "chrome-extension://jbegidfhcnmmjbbdlfbhhkdfeeckoodb/options/options.html",
-        "IMG" : "../images/icon/Ajou_myDepartment.png"
+        "IMG" : "../images/icon/Ajou_myDepartment.png",
+        "URL" : "chrome-extension://jbegidfhcnmmjbbdlfbhhkdfeeckoodb/options/options.html"
     },
     "사이트맵" : {
-        "URL" : "https://www.ajou.ac.kr/kr/guide/sitemap.do",
-        "IMG" : "../images/icon/Ajou_sitemap.png"
+        "IMG" : "../images/icon/Ajou_sitemap.png",
+        "URL" : "https://www.ajou.ac.kr/kr/guide/sitemap.do"
     },
     "공지사항" : {
-        "URL" : "https://www.ajou.ac.kr/kr/ajou/notice.do",
-        "IMG" : "../images/icon/Ajou_notice.png"
+        "IMG" : "../images/icon/Ajou_notice.png",
+        "URL" : "https://www.ajou.ac.kr/kr/ajou/notice.do"
     },
     "수강신청" : {
-        "URL" : "http://sugang.ajou.ac.kr/",
-        "IMG" : "../images/icon/Ajou_applyClass.png"
+        "IMG" : "../images/icon/Ajou_applyClass.png",
+        "URL" : "http://sugang.ajou.ac.kr/"
     },
     "요람" : {
-        "URL" : "https://www.ajou.ac.kr/kr/bachelor/handbook2019.do",
-        "IMG" : "../images/icon/Ajou_curriculum.png"
+        "IMG" : "../images/icon/Ajou_curriculum.png",
+        "URL" : "https://www.ajou.ac.kr/kr/bachelor/handbook2019.do"
     },
     "기숙사" : {
-        "URL" : "https://dorm.ajou.ac.kr/dorm/index.jsp",
-        "IMG" : "../images/icon/Ajou_dormitory.png"
+        "IMG" : "../images/icon/Ajou_dormitory.png",
+        "URL" : "https://dorm.ajou.ac.kr/dorm/index.jsp"
     },
     "교내식당" : {
-        "URL" : "https://www.ajou.ac.kr/kr/life/food.do",
-        "IMG" : "../images/icon/Ajou_meal.png"
+        "IMG" : "../images/icon/Ajou_meal.png",
+        "URL" : "https://www.ajou.ac.kr/kr/life/food.do"
     },
     "대학기구" : {
-        "URL" : "https://www.ajou.ac.kr/kr/intro/organ.do",
-        "IMG" : "../images/icon/Ajou_organization.png"
+        "IMG" : "../images/icon/Ajou_organization.png",
+        "URL" : "https://www.ajou.ac.kr/kr/intro/organ.do"
     },
     "교내 전화번호" : {
-        "URL" : "https://mportal.ajou.ac.kr/system/phone/phone.do",
-        "IMG" : "../images/icon/Ajou_phoneNumber.png"
+        "IMG" : "../images/icon/Ajou_phoneNumber.png",
+        "URL" : "https://mportal.ajou.ac.kr/system/phone/phone.do"
     },
     "대학일자리센터" : {
-        "URL" : "https://job.ajou.ac.kr/",
-        "IMG" : "../images/icon/Ajou_jobCenter.png"
+        "IMG" : "../images/icon/Ajou_jobCenter.png",
+        "URL" : "https://job.ajou.ac.kr/"
     },
     "LINC+ 사업단" : {
-        "URL" : "https://lincplus.ajou.ac.kr/",
-        "IMG" : "../images/icon/Ajou_LINC.png"
+        "IMG" : "../images/icon/Ajou_LINC.png",
+        "URL" : "https://lincplus.ajou.ac.kr/"
     },
     "수학 웹과제" : {
-        "URL" : "https://maple2.ajou.ac.kr/mapleta/login/login.do",
-        "IMG" : "../images/icon/Ajou_mathAssignment.png"
+        "IMG" : "../images/icon/Ajou_mathAssignment.png",
+        "URL" : "https://maple2.ajou.ac.kr/mapleta/login/login.do"
     },
     "과학 웹과제" : {
-        "URL" : "https://mapleta.ajou.ac.kr/mapleta/login/login.do",
-        "IMG" : "../images/icon/Ajou_scienceAssignment.png"
+        "IMG" : "../images/icon/Ajou_scienceAssignment.png",
+        "URL" : "https://mapleta.ajou.ac.kr/mapleta/login/login.do"
     },
     "에브리타임" : {
-        "URL" : "https://ajou.everytime.kr/",
-        "IMG" : "../images/icon/Ajou_everytime.png"
+        "IMG" : "../images/icon/Ajou_everytime.png",
+        "URL" : "https://ajou.everytime.kr/"
     },
-    "신입생 카페" : {
-        "URL" : "https://cafe.naver.com/godwoojin",
-        "IMG" : "../images/icon/Ajou_cafe.png"
+    "과제 카페" : {
+        "IMG" : "../images/icon/Ajou_cafe.png",
+        "URL" : "https://cafe.naver.com/godwoojin"
     }
 }
