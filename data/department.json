@@ -1,6 +1,6 @@
 {
     "나의 학과" : {
-        "URL" : "chrome-extension://jbegidfhcnmmjbbdlfbhhkdfeeckoodb/options/options.html"
+        "URL" : "../options/options.html"
     },
     "기계공학과" : {
         "URL" : "http://me.ajou.ac.kr/me/index.jsp"
