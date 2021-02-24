@@ -114,7 +114,6 @@ function setLink(itemLinkElement, num) {
             if (linkName == "나의 학과") {
                 chrome.storage.sync.get(`Department`, function(data) {
                     let departmentName = data.Department;
-                    console.log(departmentName);
 
                     fetch(chrome.extension.getURL("../data/department.json"))
                     .then((response) => response.json())
