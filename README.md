@@ -7,7 +7,7 @@
 | chrome  | v1.0 | 2021.01.19     |
 | whale   | v1.0 | 2021.01.18     |
 
-[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)
+<del>[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)<del>수리중 
 
 [웨일 브라우저 아스 설치](https://bit.ly/AjouSwift-Whale)
 
