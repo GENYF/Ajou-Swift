@@ -11,7 +11,11 @@ body {
 	grid-template-rows: 100px 1fr 1fr 1fr;
 }
 .button-color {
-	grid-column: span 3;
+	grid-column: span 1;
+	margin: 5px;
+}
+.button-select-department {
+	grid-column: span 2;
 	margin: 5px;
 }
 .button-link {
@@ -32,9 +36,31 @@ button:hover {
 	background-color: #4370ff;
 	color: white;
 }
-button:focus {
+button:active {
 	background-color: #4370ff;
 	border: 0px;
 	color: white;
+	outline: 0px;
+}
+button:focus{
+	border: 1px solid #4370ff;
+	outline: 0px;
+}
+select{
+	background-color: white;
+	border: 1px solid #4370ff;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 2px 2px 2px #4370ff;
+	font-family: inherit;
+	height: 30px;
+	margin: 3px;
+	width: 200px;
+}
+select:active {
+	background-color: white;
+	border: 1px solid #4370ff;
+}
+select:focus{
+	border: 1px solid #4370ff;
 	outline: 0px;
 }

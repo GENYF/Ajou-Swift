@@ -68,19 +68,12 @@ body {
 .item-link:hover {
 	border: 2px solid #4370ff;
 }
-.item-link > a {
-	color: black;
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-decoration: none !important;
-}
-.item-link > a > img {
+.item-link > img {
 	height: 50px;
 	margin-top: 10px;
 	width: 50px;
 }
-.item-link > a > p {
+.item-link > p {
 	font-family: inherit;
 	font-size: 12px;
 	margin: 5px;
@@ -93,13 +86,6 @@ body {
 	grid-column: span 3;
 	margin: 4px;
 	text-align: center;
-}
-.item-schedule > a {
-	color: black;
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-decoration: none !important;
 }
 .sub-container {
 	display: grid;
