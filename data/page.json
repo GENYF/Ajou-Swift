@@ -33,7 +33,7 @@
     },
     "나의 학과" : {
         "IMG" : "../images/icon/Ajou_myDepartment.png",
-        "URL" : "chrome-extension://jbegidfhcnmmjbbdlfbhhkdfeeckoodb/options/options.html"
+        "URL" : "../options/options.html"
     },
     "사이트맵" : {
         "IMG" : "../images/icon/Ajou_sitemap.png",
