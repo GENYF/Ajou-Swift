@@ -57,12 +57,14 @@
 * 2021.01.14: 옵션 기능 개선
 * 2021.01.15: 웨일 브라우저 대응 개발
 * 2021.01.16: 일정 기능 추가 및 코드 최적화
-* 2021.01.17: 크롬 및 웨일 확장프로그램 스토어 등록 요청
+* 2021.01.17: 버전 1.0 확장프로그램 스토어 등록 요청
 * 2021.01.18: 웨일 확장프로그램 스토어 등록
 * 2021.01.19: 크롬 확장프로그램 스토어 등록
 * 2021.01.20: 공식 출시
-* 2021.02.20: 바로가기 개수 추가
-* 2021.02.24: 나의 학과 추가
+* 2021.02.20: 바로가기 항목 추가
+* 2021.02.23: 나의 학과 추가
+* 2021.02.24: 버전 1.1 확장프로그램 스토어 등록 요청, 나의 학과 버그 수정
+* 2021.02.25: 버전 1.1.1 확장프로그램 스토어 등록 요청
 
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
