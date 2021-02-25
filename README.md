@@ -2,10 +2,10 @@
 
 [![Contact: gnyf0915@gmail.com](https://img.shields.io/badge/Contact-gnyf0915@gmail.com-important)](mailto:gnyf0915@gmail.com)
 
-| browser | 버전 | 최근 업데이트일 |
-| ------- | ---- | -------------- |
-| chrome  | v1.0 | 2021.01.19     |
-| whale   | v1.0 | 2021.01.18     |
+| browser | 버전   | 최근 업데이트일 |
+| ------- | ------ | -------------- |
+| chrome  | v1.0.0 | 2021.01.19     |
+| whale   | v1.1.1 | 2021.02.25     |
 
 <del>[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)</del> 수리중 ㅠㅠ
 
