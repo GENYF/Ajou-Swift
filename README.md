@@ -4,10 +4,10 @@
 
 | browser | 버전   | 최근 업데이트일 |
 | ------- | ------ | -------------- |
-| chrome  | v1.0.0 | 2021.01.19     |
+| chrome  | v1.1.0 | 2021.02.24     |
 | whale   | v1.1.1 | 2021.02.25     |
 
-<del>[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)</del> 수리중 ㅠㅠ
+[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)
 
 [웨일 브라우저 아스 설치](https://bit.ly/AjouSwift-Whale)
 
@@ -61,7 +61,6 @@
 
 * 2021.01.20: 1.0.0 버전 출시
   * 크롬 확장프로그램 스토어 게시
-  * 웨일 확장프로그램 스토어 게시
 
 * 2021.02.20: 1.1.0 버전 개발
   * 바로가기 선택 항목 추가
@@ -70,7 +69,14 @@
 * 2021.02.24: 1.1.1 버전 개발
   * 나의 학과 바로가기 기능 버그 수정
 
-* 2021.02.26: 1.1.1 버전 출시
+* 2021.02.25 1.1.1 버전 출시
+  * 웨일 확장프로그램 스토어 게시
+
+* 2021.02.25: 1.1.2 버전 개발
+  * 나의 학과 바로가기 기능 버그 수정
+
+* 2021.02.26: 1.1.2 버전 출시
+
 
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
