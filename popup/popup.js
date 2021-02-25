@@ -154,8 +154,6 @@ function clickOpenNewTeb(element, URL){
     element.addEventListener('click', function(){
         window.open(URL);
     });
-
-    element.style.cursor = "pointer";
 }
 
 /*검색 함수*/

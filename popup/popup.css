@@ -64,6 +64,7 @@ body {
 	box-shadow: 3px 3px 3px #D2D2D2;
 	margin: 5px;
 	text-align: center;
+	cursor: pointer;
 }
 .item-link:hover {
 	border: 2px solid #4370ff;

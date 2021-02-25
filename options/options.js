@@ -26,7 +26,7 @@ window.addEventListener('load', function(){
         //버튼 클릭시 테마 설정 동기화
         button.addEventListener('click', function() {
             chrome.storage.sync.set({Color: item}, function() { 
-                console.log(item); 
+                
             }); 
         });
 
@@ -57,6 +57,7 @@ window.addEventListener('load', function(){
         let data = selectElement.options[selectElement.selectedIndex].value;
         
         chrome.storage.sync.set({Department: data}, function() { 
+            window.alert(data + "로 변경 완료!");
         }); 
     });
 
@@ -77,7 +78,8 @@ function itemLinkOptions(buttonLinkElement, itemLinkList, num) {
 
         //버튼 클릭시 바로가기 설정 동기화
         button.addEventListener('click', function() {
-            chrome.storage.sync.set({[`Link${num}`] : item}, function() { 
+            chrome.storage.sync.set({[`Link${num}`] : item}, function() {
+
             }); 
         });
 
