@@ -36,7 +36,7 @@ window.addEventListener('load', function(){
     /*학과 선택 옵션 생성 기능*/
 
     let formElement = document.getElementById('form-department');
-    let selectElement = document.getElementById('select-department')
+    let selectElement = document.getElementById('select-department');
 
     //학과 선택 버튼 생성
     for (let item of itemDepartmentList) {
