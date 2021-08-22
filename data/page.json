@@ -51,6 +51,10 @@
         "IMG" : "../images/icon/Ajou_curriculum.png",
         "URL" : "https://www.ajou.ac.kr/kr/bachelor/handbook2019.do"
     },
+    "아주 허브" : {
+        "IMG" : "../images/icon/Ajou_hub.png",
+        "URL" : "https://hub.ajou.ac.kr/clientMain/a/t/main.do"
+    },
     "기숙사" : {
         "IMG" : "../images/icon/Ajou_dormitory.png",
         "URL" : "https://dorm.ajou.ac.kr/dorm/index.jsp"
@@ -74,6 +78,10 @@
     "LINC+ 사업단" : {
         "IMG" : "../images/icon/Ajou_LINC.png",
         "URL" : "https://lincplus.ajou.ac.kr/"
+    },
+    "국제협력처" : {
+        "IMG" : "../images/icon/Ajou_global.png",
+        "URL" : "https://oia.ajou.ac.kr/oia/index.do"
     },
     "수학 웹과제" : {
         "IMG" : "../images/icon/Ajou_mathAssignment.png",
