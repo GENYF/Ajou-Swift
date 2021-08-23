@@ -4,8 +4,8 @@
 
 | browser | 버전   | 최근 업데이트일 |
 | ------- | ------ | -------------- |
-| chrome  | v1.1.2 | 2021.02.26     |
-| whale   | v1.1.2 | 2021.03.02     |
+| chrome  | v1.1.3 | 2021.08.23     |
+| whale   | v1.1.3 | 2021.08.23     |
 
 [크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)
 
@@ -84,8 +84,12 @@
   * 크롬 확장프로그램 스토어 게시
   * 웨일 확장프로그램 스토어 게시
 
-* 2021.08.23: 1.1.3 버전 개발
+* 2021.08.22: 1.1.3 버전 개발
   * 바로가기 선택 항목 추가
+
+* 2021.08.23: 1.1.3 버전 출시
+  * 크롬 확장프로그램 스토어 게시
+  * 웨일 확장프로그램 스토어 게시
 
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
