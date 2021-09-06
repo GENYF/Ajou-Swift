@@ -8,11 +8,11 @@ body {
 }
 .main-container {
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
+	grid-template-columns: 100px 100px 100px 100px;
 	grid-template-rows: 50px 100px 100px 100px 50px 30px;
 }
 .header {
-	grid-column: span 3;
+	grid-column: span 4;
 }
 .header > div {
 	border: 1px solid #4370ff;
@@ -35,10 +35,10 @@ body {
 	margin: 0px;
 	outline: none;
 	padding-bottom: 0px;
-	padding-left: 2px;
-	padding-right: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
 	padding-top: 0px;
-	width: 242px;
+	width: 236px;
 }
 .header > div > button {
 	background-color: #4370ff;
@@ -84,13 +84,13 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: inherit;
 	font-size: 12px;
-	grid-column: span 3;
+	grid-column: span 4;
 	margin: 4px;
 	text-align: center;
 }
 .sub-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	height: 100%;
 	width: 100%;
@@ -105,7 +105,7 @@ body {
 }
 .item-content {
 	border-left: 1px dashed #4370ff;
-	grid-column: span 2;
+	grid-column: span 3;
 	vertical-align: middle;
 }
 .item-content > p {
@@ -117,7 +117,7 @@ body {
 	font-family: inherit;
 	font-size: 10px;
 	font-weight: 100;
-	grid-column: span 3;
+	grid-column: span 4;
 	padding: 1px;
 	text-align: center;
 }

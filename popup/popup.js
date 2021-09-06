@@ -16,8 +16,8 @@ window.addEventListener('DOMContentLoaded', function(){
 
     /*바로가기 생성 및 변경 기능*/
     
-    //바로가기 9개 생성 및 변경
-    for (let i = 1; i <= 9; i++) {
+    //바로가기 12개 생성 및 변경
+    for (let i = 1; i <= 12; i++) {
         setLink(document.getElementById(`item-link-${i}`), i);
     }
 
