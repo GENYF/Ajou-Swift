@@ -8,9 +8,19 @@
   <body id="main">
     <div class="main-container">
       <div class="header">
-        <div>
-          <input type="text" id="searchInput" placeholder="검색어 입력(캠퍼스, 행사, 전공, 교수 등)">
-          <button id="searchButton">검색</button>
+        <div class="header-sub-container">
+          <div class="searchBox">
+            <input type="text" class="searchInput" id="searchInput" placeholder="검색어 입력(캠퍼스, 행사, 전공, 교수 등)">
+            <button class="searchButton" id="searchButton">검색</button>
+          </div>
+          <div class="buttonBox">
+            <a class="settingsButton" href="../options/options.html" target="_blank">
+              <img src="../images/icon/settings.png">
+            </a>
+            <a class="developmentButton" href="https://github.com/GENYF/Ajou-Swift" target="_blank">
+              <img src="../images/icon/development.png">
+            </a>
+          </div>
         </div>
       </div>
       <div class="item-link" id="item-link-1"></div>
@@ -26,7 +36,7 @@
       <div class="item-link" id="item-link-11"></div>
       <div class="item-link" id="item-link-12"></div>
       <div class="item-schedule" id="item-schedule">
-          <div class="sub-container">
+          <div class="item-sub-container">
             <div class="item-date">
               <p id="day"></p>
             </div>
@@ -36,7 +46,6 @@
         </div>
       </div>
       <div class="footer">
-        <div>Services developed by <a href="https://github.com/GENYF" target="_blank">GENYF</a></div>
         <div>Icons made by <a href="https://www.flaticon.com/authors/inipagistudio" target="_blank" title="inipagistudio">inipagistudio</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a></div>
       </div>
     </div>
