@@ -99,7 +99,7 @@ body {
 }
 .item-link {
 	border-radius: 10%;
-	box-shadow: 0px 3px 9px #C1C1C1;
+	box-shadow: 0px 3px 6px #C1C1C1;
 	cursor: pointer;
 	margin: 5px;
 	text-align: center;
