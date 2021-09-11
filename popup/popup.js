@@ -71,7 +71,6 @@ window.addEventListener('DOMContentLoaded', function(){
     input.addEventListener('keypress', function(event) {
         if (event.keyCode == 13) {
             let query = document.getElementById('searchInput').value;
-            console.log(query);
             search(query);
         }
     });
