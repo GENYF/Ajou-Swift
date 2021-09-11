@@ -2,14 +2,10 @@
 
 [![Contact: gnyf0915@gmail.com](https://img.shields.io/badge/Contact-gnyf0915@gmail.com-important)](mailto:gnyf0915@gmail.com)
 
-| browser | 버전    | 최근 업데이트일    |
-| ------- | ------ | -------------- |
-| chrome  | v1.2.0 | 2021.09.11     |
-| whale   | v1.1.3 | 2021.08.23     |
-
-[크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)
-
-[웨일 브라우저 아스 설치](https://bit.ly/AjouSwift-Whale)
+| browser | Version    | Recent Update Date | Download                                          |
+| ------- | ---------- | ------------------ | -----------------------------------------------   |
+| Chrome  | v1.2.0     | 2021.09.11         | [💾 Chrome Store](https://bit.ly/AjouSwift-Chrome) |
+| Whale   | v1.1.3     | 2021.08.23         | [💾 Whale Store](https://bit.ly/AjouSwift-Whale)   |
 
 '아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬·웨일 확장프로그램입니다.
 
