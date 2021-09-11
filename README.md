@@ -15,7 +15,7 @@
 
 손쉽게 크롬에 추가하여 검색 기능, 페이지 바로가기 기능, 중요 학사일정 안내 기능을 이용하실 수 있습니다.
 
-총 25개의 웹 페이지를 제공하며, 아이콘을 우클릭 후 옵션탭을 통해 9개의 페이지를 선택할 수 있습니다.
+총 25개의 웹 페이지를 제공하며, 아이콘을 우클릭 후 옵션탭을 통해 12개의 페이지를 선택할 수 있습니다.
 
 제공 페이지는 다음과 같습니다.
 
@@ -90,6 +90,11 @@
 * 2021.08.23: 1.1.3 버전 출시
   * 크롬 확장프로그램 스토어 게시
   * 웨일 확장프로그램 스토어 게시
+
+* 2021.09.11: 1.2.0 버전 개발
+  * 4 * 3 레이아웃 적용
+  * 설정 버튼 추가
+  * 개발자 정보 버튼 추가
 
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.

@@ -65,7 +65,7 @@ window.addEventListener('load', function(){
 
     /*바로가기 선택 옵션 생성 기능*/
 
-    for (let i = 1; i <= 9; i++){
+    for (let i = 1; i <= 12; i++){
         itemLinkOptions(document.getElementById(`button-link-${i}`), itemLinkList, i);
     }
 });

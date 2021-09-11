@@ -1,30 +1,37 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
 body {
 	background-color: white;
 	font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
+	font-weight: 300;
 	word-break: keep-all;
 }
 .main-container {
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
-	grid-template-rows: 50px 100px 100px 100px 50px 30px;
+	grid-template-columns: 100px 100px 100px 100px;
+	grid-template-rows: 70px 100px 100px 100px 80px 30px;
 }
 .header {
-	grid-column: span 3;
+	grid-column: span 4;
 }
-.header > div {
+.header-sub-container {
+	display: grid;
+	grid-template-columns: 330px 70px;
+	grid-template-rows: 70px;
+	height: 100%;
+	width: 100%;
+}
+.searchBox {
 	border: 1px solid #4370ff;
 	border-radius: 3px 3px 3px 3px;
-	height: 30px;
-	margin-bottom: 9px;
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-top: 9px;
-	width: 292px;
+	grid-column: span 1;
+	height: 36px;
+	width: 322px;
+	margin-bottom: 16px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 16px;
 }
-.header > div > input {
+.searchInput {
 	background-color: inherit;
 	border: 0px;
 	float: left;
@@ -32,15 +39,15 @@ body {
 	font-size: 12px;
 	font-weight: 500;
 	height: 100%;
+	width: 244px;
 	margin: 0px;
 	outline: none;
 	padding-bottom: 0px;
-	padding-left: 2px;
-	padding-right: 0px;
+	padding-left: 12px;
+	padding-right: 12px;
 	padding-top: 0px;
-	width: 242px;
 }
-.header > div > button {
+.searchButton {
 	background-color: #4370ff;
 	border: 0px;
 	color: #ffffff;
@@ -50,9 +57,40 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	height: 100%;
+	width: 54px;
 	outline: none;
 	transition-duration: 0.3s;
-	width: 48px;
+}
+.buttonBox {
+	font-size: 0;
+	grid-column: span 1;
+	padding-bottom: 23px;
+	padding-top: 23px;
+	text-align: right;
+}
+.settingsButton {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	object-fit: contain;
+	padding-left: 6px;
+	padding-right: 5px;
+}
+.settingsButton > img {
+	height: 100%;
+	width: 100%;
+}
+.developmentButton {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	object-fit: contain;
+	padding-left: 6px;
+	padding-right: 5px;
+}
+.developmentButton > img {
+	height: 100%;
+	width: 100%;
 }
 .header > div > button:hover {
 	background-color: inherit;
@@ -61,18 +99,18 @@ body {
 }
 .item-link {
 	border-radius: 10%;
-	box-shadow: 3px 3px 3px #D2D2D2;
+	box-shadow: 0px 3px 6px #C1C1C1;
+	cursor: pointer;
 	margin: 5px;
 	text-align: center;
-	cursor: pointer;
 }
 .item-link:hover {
 	border: 2px solid #4370ff;
 }
 .item-link > img {
 	height: 50px;
-	margin-top: 10px;
 	width: 50px;
+	margin-top: 10px;
 }
 .item-link > p {
 	font-family: inherit;
@@ -84,13 +122,16 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: inherit;
 	font-size: 12px;
-	grid-column: span 3;
-	margin: 4px;
+	grid-column: span 4;
+	margin-bottom: 16px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 16px;
 	text-align: center;
 }
-.sub-container {
+.item-sub-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	height: 100%;
 	width: 100%;
@@ -100,24 +141,24 @@ body {
 	grid-column: span 1;
 }
 .item-date > p {
-	margin-bottom: 12px;
-	margin-top: 11px;
+	margin-bottom: 15px;
+	margin-top: 14px;
 }
 .item-content {
 	border-left: 1px dashed #4370ff;
-	grid-column: span 2;
+	grid-column: span 3;
 	vertical-align: middle;
 }
 .item-content > p {
-	margin-bottom: 12px;
-	margin-top: 11px;
+	margin-bottom: 15px;
+	margin-top: 14px;
 }
 .footer {
 	color: gray;
 	font-family: inherit;
 	font-size: 10px;
 	font-weight: 100;
-	grid-column: span 3;
+	grid-column: span 4;
 	padding: 1px;
 	text-align: center;
 }

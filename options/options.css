@@ -8,7 +8,7 @@ body {
 }
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 100px 1fr 1fr 1fr;
 }
 .button-color {
@@ -16,6 +16,10 @@ body {
 	margin: 5px;
 }
 .button-select-department {
+	grid-column: span 1;
+	margin: 5px;
+}
+.options-notice {
 	grid-column: span 2;
 	margin: 5px;
 }
