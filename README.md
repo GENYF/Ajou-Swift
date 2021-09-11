@@ -2,9 +2,9 @@
 
 [![Contact: gnyf0915@gmail.com](https://img.shields.io/badge/Contact-gnyf0915@gmail.com-important)](mailto:gnyf0915@gmail.com)
 
-| browser | 버전   | 최근 업데이트일 |
+| browser | 버전    | 최근 업데이트일    |
 | ------- | ------ | -------------- |
-| chrome  | v1.1.3 | 2021.08.23     |
+| chrome  | v1.2.0 | 2021.09.11     |
 | whale   | v1.1.3 | 2021.08.23     |
 
 [크롬 브라우저 아스 설치](https://bit.ly/AjouSwift-Chrome)
