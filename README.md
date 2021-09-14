@@ -5,7 +5,7 @@
 | browser | Version    | Recent Update Date | Download                                          |
 | ------- | ---------- | ------------------ | -----------------------------------------------   |
 | Chrome  | v1.2.0     | 2021.09.11         | [💾 Chrome Store](https://bit.ly/AjouSwift-Chrome) |
-| Whale   | v1.1.3     | 2021.08.23         | [💾 Whale Store](https://bit.ly/AjouSwift-Whale)   |
+| Whale   | v1.2.0     | 2021.09.14         | [💾 Whale Store](https://bit.ly/AjouSwift-Whale)   |
 
 '아스 - Ajou Swift'는 아주대학교 재학생들이 필요한 다양한 교내 페이지들을 모은 크롬·웨일 확장프로그램입니다.
 
@@ -91,6 +91,10 @@
   * 4 * 3 레이아웃 적용
   * 설정 버튼 추가
   * 개발자 정보 버튼 추가
+
+* 2021.09.14: 1.2.0 버전 출시
+  * 크롬 확장프로그램 스토어 게시
+  * 웨일 확장프로그램 스토어 게시
 
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
