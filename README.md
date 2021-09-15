@@ -43,8 +43,8 @@
 
 많은 이용바랍니다. 감사합니다!
 
-<img src="extension/images/screenshot/1.png">
-<img src="extension/images/screenshot/2.png">
+<img src="images/screenshot/1.png">
+<img src="images/screenshot/2.png">
 
 # 릴리즈 노트
 * 2021.01.09: 알파 버전 개발
