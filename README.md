@@ -96,6 +96,9 @@
   * 크롬 확장프로그램 스토어 게시
   * 웨일 확장프로그램 스토어 게시
 
+* 2021.09.15: 랜딩 페이지 개발
+  * 깃허브 페이지 오픈
+
 # 저작권 표시
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
