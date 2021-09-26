@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 body {
 	background-color: white;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: 300;
+	width: 400px;
+	height: 480px;
 	word-break: keep-all;
 }
 .main-container {
