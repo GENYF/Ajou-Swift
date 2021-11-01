@@ -117,5 +117,5 @@
 
 ```
 Origin Repo: https://github.com/GENYF/Ajou-Swift
-Origin: 아주대학교 크롬·웨일 확장프로그램(https://bit.ly/AjouSwift-Whale, https://bit.ly/AjouSwift-Chrome)
+Origin: 아주대학교 크롬·웨일 확장프로그램(https://ajou-swift.xyz)
 ```
