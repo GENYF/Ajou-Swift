@@ -116,6 +116,6 @@
 해당 레포를 활용하여 자교의 확장프로그램을 개발할 경우 확장프로그램 소개란과 서비스 랜딩페이지에 원작자를 표시하시길 바랍니다.
 
 ```
-Origin Repo: https://github.com/GENYF/Ajou-Swift
+Origin Repo: GENYF/Ajou-Swift(https://github.com/GENYF/Ajou-Swift)
 Origin: 아주대학교 크롬·웨일 확장프로그램(https://ajou-swift.xyz)
 ```
