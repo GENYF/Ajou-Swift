@@ -1,14 +1,26 @@
 {
   "name": "아스 - Ajou Swift",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "아주대학교 재학생을 위한 교내 페이지 모음 확장 프로그램",
-  "permissions": ["storage", "https://fonts.googleapis.com/earlyaccess/notosanskr.css"],
-  "web_accessible_resources": ["data/page.json", "data/schedule.json"],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://fonts.googleapis.com/earlyaccess/notosanskr.css"
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+      "data/page.json", 
+      "data/schedule.json"
+    ],
+    "matches": [
+      "file:///*"
+    ]
+  }],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
-  "browser_action": {
+  "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "images/logo/Ajou_logo16.png",
@@ -24,5 +36,5 @@
     "48": "images/logo/Ajou_logo48.png",
     "128": "images/logo/Ajou_logo128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
