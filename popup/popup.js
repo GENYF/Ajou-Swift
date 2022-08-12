@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', function(){
     let schedule = document.getElementById('schedule');
 
     //json에서 Ajax로 학사일정 불러오기
-    fetch(chrome.extension.getURL("../data/schedule.json"))
+    fetch(chrome.runtime.getURL("../data/schedule.json"))
     .then((response) => response.json())
     .then(function (jsonData) {
         let scheduleText = jsonData[`${dayText}`];
@@ -105,7 +105,7 @@ function setLink(itemLinkElement, num) {
         //json에서 Ajax로 페이지 이미지와 링크 불러오기
         let linkName = data[`Link${num}`];
 
-        fetch(chrome.extension.getURL("../data/page.json"))
+        fetch(chrome.runtime.getURL("../data/page.json"))
         .then((response) => response.json())
         .then(function (jsonData) {
             let IMG = jsonData[`${linkName}`].IMG;
@@ -114,7 +114,7 @@ function setLink(itemLinkElement, num) {
                 chrome.storage.sync.get(`Department`, function(data) {
                     let departmentName = data.Department;
 
-                    fetch(chrome.extension.getURL("../data/department.json"))
+                    fetch(chrome.runtime.getURL("../data/department.json"))
                     .then((response) => response.json())
                     .then(function (jsonData) {
                         let URL = jsonData[`${departmentName}`].URL; 
