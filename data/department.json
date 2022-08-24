@@ -3,123 +3,123 @@
         "URL" : "../options/options.html"
     },
     "기계공학과" : {
-        "URL" : "http://me.ajou.ac.kr/me/index.jsp"
+        "URL" : "http://me.ajou.ac.kr"
     },
     "산업공학과" : {
-        "URL" : "http://ie.ajou.ac.kr/ie/index.jsp"
+        "URL" : "http://ie.ajou.ac.kr"
     }, 
     "화학공학과" : {
-        "URL" : "http://che.ajou.ac.kr/che/index.jsp"
+        "URL" : "http://che.ajou.ac.kr"
     }, 
     "신소재공학과" : {
-        "URL" : "http://mse.ajou.ac.kr/mse/"
+        "URL" : "http://mse.ajou.ac.kr"
     },
     "응용화학생명공학과" : {
-        "URL" : "http://chembio.ajou.ac.kr/chembio/index.jsp"
+        "URL" : "http://chembio.ajou.ac.kr"
     }, 
     "환경안전공학과" : {
-        "URL" : "http://env.ajou.ac.kr/env/index.jsp"
+        "URL" : "http://env.ajou.ac.kr"
     }, 
     "건설시스템공학과" : {
-        "URL" : "http://ce.ajou.ac.kr/ce/"
+        "URL" : "http://ce.ajou.ac.kr"
     }, 
     "교통시스템공학과" : {
-        "URL" : "http://tse.ajou.ac.kr/tse/index.jsp"
+        "URL" : "http://tse.ajou.ac.kr"
     }, 
     "건축학과" : {
-        "URL" : "https://eng.ajou.ac.kr/arch/"
+        "URL" : "https://eng.ajou.ac.kr"
     },
     "융합시스템공학과" : {
-        "URL" : "https://ise.ajou.ac.kr/ise/index.jsp"
+        "URL" : "https://ise.ajou.ac.kr"
     },
     "전자공학과" : {
-        "URL" : "http://ece.ajou.ac.kr/ece/index.jsp"
+        "URL" : "https://ece.ajou.ac.kr"
     },
     "소프트웨어학과" : {
-        "URL" : "http://software.ajou.ac.kr/"
+        "URL" : "http://software.ajou.ac.kr"
     },
     "사이버보안학과" : {
-        "URL" : "http://security.ajou.ac.kr/security/index.jsp"
+        "URL" : "http://security.ajou.ac.kr"
     },
     "미디어학과" : {
-        "URL" : "http://media.ajou.ac.kr/media/index.jsp"
+        "URL" : "http://media.ajou.ac.kr"
     },
     "국방디지털융합학과" : {
-        "URL" : "http://mdc.ajou.ac.kr/mdc/index.jsp"
+        "URL" : "http://mdc.ajou.ac.kr"
     }, 
     "인공지능융합학과" : {
-        "URL" : "http://aai.ajou.ac.kr/aai/index.jsp"
+        "URL" : "http://aai.ajou.ac.kr"
     },
     "수학과" : {
-        "URL" : "http://math.ajou.ac.kr/math/index.jsp"
+        "URL" : "http://math.ajou.ac.kr"
     },
     "물리학과" : {
-        "URL" : "http://physics.ajou.ac.kr/physics/index.jsp"
+        "URL" : "http://physics.ajou.ac.kr"
     },
     "화학과" : {
-        "URL" : "https://www2.ajou.ac.kr/chem/index.jsp"
+        "URL" : "https://www2.ajou.ac.kr"
     },
     "생명과학과" : {
-        "URL" : "http://biology.ajou.ac.kr/biolog/index.jsp"
+        "URL" : "http://biology.ajou.ac.kr"
     },
     "경영학과" : {
-        "URL" : "http://abiz.ajou.ac.kr/abiz/index.jsp"
+        "URL" : "http://abiz.ajou.ac.kr"
     },
     "e-비즈니스학과" : {
-        "URL" : "http://ebiz.ajou.ac.kr/ebiz/index.jsp"
+        "URL" : "http://ebiz.ajou.ac.kr"
     },
     "금융공학과" : {
-        "URL" : "http://fe.ajou.ac.kr/fe/index.jsp"
+        "URL" : "http://fe.ajou.ac.kr"
     },
     "글로벌경영학과" : {
-        "URL" : "http://gb.ajou.ac.kr/gb/index.jsp"
+        "URL" : "http://gb.ajou.ac.kr"
     },
     "국어국문학과" : {
-        "URL" : "http://kor.ajou.ac.kr/kor/index.jsp"
+        "URL" : "http://kor.ajou.ac.kr"
     },
     "영어영문학과" : {
-        "URL" : "http://ell.ajou.ac.kr/english/index.jsp"
+        "URL" : "http://ell.ajou.ac.kr"
     },
     "불어불문학과" : {
-        "URL" : "http://france.ajou.ac.kr/france/index.jsp"
+        "URL" : "http://france.ajou.ac.kr"
     },
     "사학과" : {
-        "URL" : "http://history.ajou.ac.kr/history/index.jsp"
+        "URL" : "http://history.ajou.ac.kr"
     },
     "문화콘텐츠학과" : {
-        "URL" : "http://culture.ajou.ac.kr/culture/index.jsp"
+        "URL" : "http://culture.ajou.ac.kr"
     },
     "경제학과" : {
-        "URL" : "http://econ.ajou.ac.kr/econ/index.jsp"
+        "URL" : "http://econ.ajou.ac.kr"
     },
     "행정학과" : {
-        "URL" : "http://pba.ajou.ac.kr/pba/index.jsp"
+        "URL" : "http://pba.ajou.ac.kr"
     },
     "심리학과" : {
-        "URL" : "http://apsy.ajou.ac.kr/apsy/index.jsp"
+        "URL" : "http://apsy.ajou.ac.kr"
     },
     "사회학과" : {
-        "URL" : "http://soci.ajou.ac.kr/soci/index.jsp"
+        "URL" : "http://soci.ajou.ac.kr"
     },
     "정치외교학과" : {
-        "URL" : "http://pol.ajou.ac.kr/pol/index.jsp"
+        "URL" : "http://pol.ajou.ac.kr"
     },
     "스포츠레저학과" : {
-        "URL" : "http://slez.ajou.ac.kr/slez/index.jsp"
+        "URL" : "http://slez.ajou.ac.kr"
     },
     "의학과" : {
-        "URL" : "http://medicine.ajou.ac.kr/"
+        "URL" : "http://medicine.ajou.ac.kr"
     },
     "간호학과" : {
-        "URL" : "http://nursing.ajou.ac.kr/"
+        "URL" : "http://nursing.ajou.ac.kr"
     },
     "약학과" : {
-        "URL" : "http://pharm.ajou.ac.kr/pharm/index.jsp"
+        "URL" : "http://pharm.ajou.ac.kr"
     },
     "다산학부대학" : {
-        "URL" : "http://uc.ajou.ac.kr/uc/index.jsp"
+        "URL" : "http://uc.ajou.ac.kr"
     },
     "국제학부" : {
-        "URL" : "http://isa.ajou.ac.kr/isa/index.jsp"
+        "URL" : "http://isa.ajou.ac.kr"
     }
 }
