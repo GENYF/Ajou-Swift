@@ -11,7 +11,7 @@
     "화학공학과" : {
         "URL" : "http://che.ajou.ac.kr"
     }, 
-    "신소재공학과" : {
+    "첨단신소재공학과" : {
         "URL" : "http://mse.ajou.ac.kr"
     },
     "응용화학생명공학과" : {
@@ -32,8 +32,14 @@
     "융합시스템공학과" : {
         "URL" : "https://ise.ajou.ac.kr"
     },
+    "AI모빌리티공학과" : {
+        "URL" : "https://mobility.ajou.ac.kr"
+    },
     "전자공학과" : {
         "URL" : "https://ece.ajou.ac.kr"
+    },
+    "지능형반도체공학과" : {
+        "URL" : "https://aisemi.ajou.ac.kr"
     },
     "소프트웨어학과" : {
         "URL" : "http://software.ajou.ac.kr"
