@@ -5,13 +5,13 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: 300;
 	width: 400px;
-	height: 480px;
+	height: 550px;
 	word-break: keep-all;
 }
 .main-container {
 	display: grid;
 	grid-template-columns: 100px 100px 100px 100px;
-	grid-template-rows: 70px 100px 100px 100px 80px 30px;
+	grid-template-rows: 70px 100px 100px 100px 80px 60px 40px;
 }
 .header {
 	grid-column: span 4;
@@ -156,6 +156,19 @@ body {
 	margin-bottom: 15px;
 	margin-top: 14px;
 }
+.item-banner {
+	grid-column: span 4;
+	text-align: center;
+}
+.item-banner > a > img {
+	height: 48px;
+	width: 392px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
 .footer {
 	color: gray;
 	font-family: inherit;
@@ -164,6 +177,8 @@ body {
 	grid-column: span 4;
 	padding: 1px;
 	text-align: center;
+	margin-top: 5.5px;
+	margin-bottom: 5.5px;
 }
 .footer > div > a {
 	color: gray;
