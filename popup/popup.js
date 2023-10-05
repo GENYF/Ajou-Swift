@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function(){
     /*테마 변경 기능*/
 
     //크롬 스토리지에 동기화된 사용자 데이터 가져오기
-    chrome.storage.sync.get('Color', function(data) {
+    chrome.storage.local.get('Color', function(data) {
         
         //다크모드 설정
         if(data.Color == "black"){
@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', function(){
     let input = document.getElementById('searchInput');
 
     input.addEventListener('keypress', function(event) {
-        if (event.keyCode == 13) {
+        if (event.key === 'Enter') {
             let query = document.getElementById('searchInput').value;
             search(query);
         }
@@ -101,7 +101,7 @@ window.addEventListener('DOMContentLoaded', function(){
 /*바로가기 생성 및 변경 데이터 파싱 함수*/
 function setLink(itemLinkElement, num) {
     //크롬 스토리지에 동기화된 사용자 바로가기 데이터 가져오기
-    chrome.storage.sync.get(`Link${num}`, function(data) {
+    chrome.storage.local.get(`Link${num}`, function(data) {
         //json에서 Ajax로 페이지 이미지와 링크 불러오기
         let linkName = data[`Link${num}`];
 
@@ -111,7 +111,7 @@ function setLink(itemLinkElement, num) {
             let IMG = jsonData[`${linkName}`].IMG;
 
             if (linkName == "나의 학과") {
-                chrome.storage.sync.get(`Department`, function(data) {
+                chrome.storage.local.get(`Department`, function(data) {
                     let departmentName = data.Department;
 
                     fetch(chrome.runtime.getURL("../data/department.json"))
